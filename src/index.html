@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DataViz CPH</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css">
+</head>
+
+<body>
+    <div class="head splash">
+        <div class="row center-xs">
+            <div class="box splash-title">
+                <h1>Copenhagen</h1>
+            </div>
+        </div>
+        <div class="row center-xs">
+            <div class="col-xs-12 col-md-4 stat">
+                <div class="box stat-head">
+                    Population
+                </div>
+                <div class="box stat-data">
+                    1.99M
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 stat">
+                <div class="box stat-head">
+                    Median income
+                </div>
+                <div class="box stat-data">
+                    55.000 DKK
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 stat">
+                <div class="box stat-head">
+                    Median age
+                </div>
+                <div class="box stat-data">
+                    19yr
+                </div>
+            </div>
+        </div>
+        <!-- Maybe add some navigation here -->
+    </div>
+    <div class="row">
+        <div class="col-xs">
+            <h2>Introduction</h2>
+            <p>
+                Hello there! Throughout this page we are going to explore the city of copenhagen and it's residents, based on their age, working status, city district, education and ethnicity.
+            </p>
+            <p>
+                The data used in this webpage is retrieved from <a href="http://www.portal.opendata.dk/">opendata.dk</a>. We're going to learn about the differences that are within the city of copenhagen through exploratory analysis of this data.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs">
+            <h2>Work and Income</h2>
+            <p>
+                To start with let's explore the median income of people in the different city districts.
+            </p>
+            <div id="histogram" class="">
+                <p>TODO: add histogram of wage distribution (x-axis is wage bins and y-axis is percent share)</p>
+            </div>
+
+            <p>
+                We can compare the unemployment rate of people with the ratio of people having an education sized by the number of persons in an age category
+            </p>
+            <div id="scatterplot" class="">
+                <p>TODO: add scatterplot of distribution (x-axis is unemployment rate and y-axis is percentage of the population in a given age group that has an education)</p>
+            </div>
+
+            <h2>Ethnicity and City Districts</h2>
+            <div id="worldMap" class="">
+                <p>
+                    TODO: add a world map choropleth plot with the number of people from different countries in the world
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+{
+    "maxerr": 50,
+    "camelcase": true,
+    "esversion": 6,
+    "browser": true,
+    "eqeqeq": true
+}

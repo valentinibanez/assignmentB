@@ -13,3 +13,11 @@ så vi f.eks. ser på hvor skævt indkomsten er foredelt baseret på bydelen osv
 Vores decision tree kan så estimere hvor personen bor ud fra parametre som indkomst, herkomst, alder, osv.
 
 Jeg tror det er nemmere at lave analysen og graferne baseret på det her. Der er nemlig ikke så meget at sige om uddanelse udover de 6 kategorier de har lavet i det ene datasæt.
+
+
+
+
+## Inspiration
+### Herkomst
+https://www.dropbox.com/s/wtob8rail0hjjwc/Sk%C3%A6rmbillede%202016-04-07%2013.20.25.png?dl=0
+http://datausa.io/profile/geo/new-york/#heritage
