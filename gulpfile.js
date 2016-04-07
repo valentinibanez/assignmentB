@@ -29,3 +29,8 @@ gulp.task('html', function() {
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./dist'));
 });
+
+gulp.task('css', function() {
+    return gulp.src('src/*.css')
+    .pipe(gulp.dest('./dist'));
+});
