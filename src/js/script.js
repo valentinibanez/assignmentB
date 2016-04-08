@@ -1,4 +1,6 @@
 function plotMap(selection) {
+    const width = 800,
+        height = 500;
 
     let svg = selection.append("svg")
         .attr("width", width)
