@@ -15,7 +15,7 @@ gulp.task('webserver', function() {
     }));
 });
 
-gulp.task('build', ['html'], function() {
+gulp.task('build', ['html', 'css', 'data'], function() {
     return gulp.src('src/js/*.js')
     .pipe(sourcemaps.init())
     .pipe(babel())
@@ -32,5 +32,10 @@ gulp.task('html', function() {
 
 gulp.task('css', function() {
     return gulp.src('src/*.css')
+    .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('data', function() {
+    return gulp.src('src/**/*')
     .pipe(gulp.dest('./dist'));
 });

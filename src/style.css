@@ -1,0 +1,29 @@
+body {
+    max-width: 1100px;
+    padding: 20px;
+}
+svg {
+    display: block;
+    margin: auto;
+}
+
+/* Plot styling */
+/* map */
+.feature {
+  fill: #ccc;
+}
+
+.mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+}
+
+.outline {
+  fill: #ddd;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+/* column chart */
