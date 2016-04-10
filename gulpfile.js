@@ -7,7 +7,7 @@ var htmlmin = require('gulp-htmlmin');
 
 gulp.watch('src/**/*', ['build']);
 
-gulp.task('webserver', function() {
+gulp.task('webserver', ['build'], function() {
   gulp.src('./dist')
     .pipe(webserver({
       livereload: true,
