@@ -9,39 +9,30 @@ var dataset = [
 ];
 
 function plotColumns(selection) {
-    //Width and height
+    //Width, height and padding
     var width = 600;
     var height = 250;
     var padding = 60;
+    
+    // Define SVG element
+    var svg = selection
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
 
+    // Define scale for x
     var xScale = d3.scale.ordinal()
         .domain(d3.range(dataset.length))
         .rangeRoundBands([padding, width], 0.05);
-
+    
+    // Define scale for y
     var yScale = d3.scale.linear()
         .domain([0, d3.max(dataset, (d) => {
             return d.value;
         })])
         .range([height-padding, 0]);
 
-    var xAxis = d3.svg.axis()
-        .scale(xScale)
-        .orient("bottom")
-        .ticks(5);
-    
-    //Define Y axis
-    var yAxis = d3.svg.axis()
-        .scale(yScale)
-        .orient("left")
-        .ticks(5);
-
-    //Create SVG element
-    var svg = selection
-        .append("svg")
-        .attr("width", width)
-        .attr("height", height);
-
-    //Create bars
+    // Create bars
     svg.selectAll("rect")
         .data(dataset)
         .enter()
@@ -60,7 +51,7 @@ function plotColumns(selection) {
             return "rgb(96, 0, " + (d.value * 10) + ")";
         });
 
-    //Create labels
+    // Create labels
     svg.selectAll("text")
         .data(dataset)
         .enter()
@@ -78,8 +69,20 @@ function plotColumns(selection) {
         .attr("font-family", "sans-serif")
         .attr("font-size", "11px")
         .attr("fill", "white");
-
-    //Create X axis
+    
+    // Define x-axis 
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom")
+        .ticks(5);
+    
+    //Define y-axis
+    var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient("left")
+        .ticks(5);
+        
+    // Create X axis
     svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + (height - padding) + ")")
