@@ -20,6 +20,8 @@ function plotMap(selection) {
 
         const states = topojson.feature(us, us.objects.bydele),
             state = states.features.filter(function(d) { return d.properties.bydel_nr === 9; })[0];
+            console.log(states);
+            console.log(state);
 
         let projection = d3.geo.mercator().scale(1)
             .translate([0, 0]);;
@@ -46,9 +48,13 @@ function plotMap(selection) {
         g.append("path")
             .datum(state)
             .attr("class", "outline")
-            .attr("d", path);
+            .attr("d", path)
+            .on("mouseover", function() {
+                dataSelector = state.properties.bydel_nr;
+                transition();
+            });
 
-        //TODO: add labels to all districts 
+        //TODO: add labels to all districts
         g.append("svg:text")
             .datum(state)
             .text(function(d) {
