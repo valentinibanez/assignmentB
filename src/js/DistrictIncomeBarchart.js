@@ -22,7 +22,7 @@ var title = "";
 var container;
 
 var formatter = d3.format(",.1%");
-d3.select("body")
+d3.select("#histogram")
     .append("div")
     .attr("class", "DataBtn")
     .attr("id", "m2")
@@ -31,7 +31,7 @@ d3.select("body")
         LoadAndTransition("m2_indbygger_bydel_T_procenter.csv");
     })
     .text("m2");
-d3.select("body")
+d3.select("#histogram")
     .append("div")
     .attr("class", "DataBtn")
     .attr("id", "m2")
@@ -40,7 +40,7 @@ d3.select("body")
         LoadAndTransition("personer_indkomst_bydel_procenter_T.csv");
     })
     .text("Income");
-d3.select("body")
+d3.select("#histogram")
     .append("div")
     .attr("class", "DataBtn")
     .attr("id", "m2")
@@ -49,7 +49,7 @@ d3.select("body")
         LoadAndTransition("Ejerforhold_indbygger_bydel_T_procenter.csv");
     })
     .text("Residence");
-d3.select("body")
+d3.select("#histogram")
     .append("div")
     .attr("class", "DataBtn")
     .attr("id", "m2")
@@ -58,7 +58,7 @@ d3.select("body")
         LoadAndTransition("Aldersgruppe_indbyggere_bydel_T_procenter.csv");
     })
     .text("Age");
-d3.select("body")
+d3.select("#histogram")
     .append("div")
     .attr("class", "arrow-left")
     .attr("id", "back")
@@ -68,7 +68,7 @@ d3.select("body")
         }
         transition();
     });
-d3.select("body")
+d3.select("#histogram")
     .append("div")
     .attr("class", "arrow-right")
     .attr("id", "next")
@@ -78,7 +78,7 @@ d3.select("body")
         }
         transition();
     });
-container = d3.select("body")
+container = d3.select("#histogram")
     .append("p")
     .style("float", "none")
     .style("margin", "5px")

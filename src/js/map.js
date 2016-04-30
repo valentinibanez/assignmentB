@@ -1,17 +1,5 @@
 function plotMap(selection) {
-    const rates = {
-        "Amager Øst": 91726,
-        "Amager Vest": 104830,
-        "Bispebjerg": 89714,
-        "Brønshøj-Husum": 68332,
-        "Indre By": 86984,
-        "Nørrebro": 131694,
-        "Østerbro": 123870,
-        "Valby": 83860,
-        "Vanløse": 64988,
-        "Vesterbro": 100584
-    }
-    const width = 800,
+    const width = 400,
         height = 500;
 
     let svg = selection.append("svg")
@@ -27,24 +15,38 @@ function plotMap(selection) {
     var div = d3.select("body").append("div")
         .attr("class", "tooltip")
         .style("opacity", 0);
+
+    // Stuff for colors and legends
     var ext_color_domain = [64988, 95600, 131694]
-    var legend_labels = ["< 50", "50+", "150+", "350+", "750+", "> 1500"]
+    var legend_labels = ["<64k", "95k+", "131k+"]
     var color = d3.scale.linear()
         .domain([64988, 95600, 131694])
-        .range(["#d7191c", "#ffffbf", "#2c7bb6"])
+        .range(["#ffead3", "#ffa84c", "#ff8300"])
         .interpolate(d3.interpolateHcl);
 
+    // stuff for zooming
+    // svg
+    //     .call(zoom)
+    //     .call(zoom.event);
 
-    svg
-        .call(zoom)
-        .call(zoom.event);
-    d3.json("data/cph_districts.json", function (error, us) {
+
+    queue()
+        .defer(d3.json, "data/cph_districts.json")
+        .defer(d3.csv, "data/indbyggere.csv")
+        .await(ready);
+    function ready(error, geo, citizens) {
         if (error) throw error;
-
-        const states = topojson.feature(us, us.objects.bydele),
+        let rates = {} 
+        citizens.map(function(d) {
+            const antal = d.Personer;
+            const bydel = d.Bydel;
+            const objekt = {"bydel": bydel, "personer": antal};
+            rates[bydel] = antal;
+            return false
+        });
+        console.log(rates);
+        const states = topojson.feature(geo, geo.objects.bydele),
             state = states.features.filter(function (d) { return d.properties.bydel_nr === 9; })[0];
-        console.log(states);
-        console.log(state);
 
         let projection = d3.geo.mercator().scale(1)
             .translate([0, 0]);;
@@ -65,31 +67,33 @@ function plotMap(selection) {
             .enter().append("path")
             .attr("d", path)
             .style("fill", function (d) {
-                console.log("rate", color(rates[d.properties.navn]));
+                console.log(d.properties.navn)
                 return color(rates[d.properties.navn])
             })
-            .style("opacity", 0.8)
             //Adding mouseevents
             .on("mouseover", function (d) {
-                d3.select(this).transition().duration(300).style("opacity", 1);
-                console.log(d);
-                div.transition().duration(300)
-                    .style("opacity", 1)
+                // link with bars
+                dataSelector = d.properties.bydel_nr;
+                transition();
+                // show tooltip
+                d3.select(this)
+                    .transition().duration(300)
+                    .style('stroke', 'black')
+                    .style('stroke-width', '1');
                 div.text(d.properties.navn + " : " + rates[d.properties.navn])
                     .style("left", (d3.event.pageX) + "px")
                     .style("top", (d3.event.pageY - 30) + "px");
             })
             .on("mouseout", function () {
                 d3.select(this)
-                    .transition().duration(300)
-                    .style("opacity", 0.8);
-                div.transition().duration(300)
-                    .style("opacity", 0);
+                    .transition().duration(600)
+                    .style('stroke', 'red')
+                    .style('stroke-width', '0');
             })
 
 
         // g.append("path")
-        //     .datum(topojson.mesh(us, us.objects.bydele, function(a, b) { return a !== b; }))
+        //     .datum(topojson.mesh(json, json.objects.bydele, function(a, b) { return a !== b; }))
         //     .attr("class", "mesh")
         //     .attr("d", path);
 
@@ -104,8 +108,10 @@ function plotMap(selection) {
         //     });
 
         //TODO: add labels to all districts
-        g.append("svg:text")
-            .datum(state)
+        g.attr("class", "region")
+            .selectAll("text")
+            .data(states.features)
+            .enter().append("text")
             .text(function (d) {
                 return d.properties.navn;
             })
@@ -116,7 +122,7 @@ function plotMap(selection) {
                 return path.centroid(d)[1];
             })
             .attr("text-anchor", "middle")
-            .attr('font-size', '9pt');
+            .attr('font-size', '8pt');
 
 
 
@@ -141,7 +147,7 @@ function plotMap(selection) {
             .attr("x", 50)
             .attr("y", function (d, i) { return height - (i * ls_h) - ls_h - 4; })
             .text(function (d, i) { return legend_labels[i]; });
-    });
+    }
 
     function zoomed() {
         g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");

@@ -1,6 +1,6 @@
 var dataset = [];
-d3.csv("./data/indbyggere.csv", function(data) {
-    dataset = data.map(function(d) { return [{key:d["Bydel"] , value:+d["Personer"]}]});
+d3.csv("./data/indbyggere.csv", function (data) {
+    dataset = data.map(function (d) { return [{ key: d["Bydel"], value: +d["Personer"] }] });
     console.log(dataset[0][0].value);
 
 
@@ -26,24 +26,24 @@ d3.csv("./data/indbyggere.csv", function(data) {
             .domain([0, d3.max(dataset, (d) => {
                 return d[0].value;
             })])
-            .range([height-padding, 0]);
+            .range([height - padding, 0]);
 
         // Create bars
         svg.selectAll("rect")
             .data(dataset)
             .enter()
             .append("rect")
-            .attr("x", function(d, i) {
+            .attr("x", function (d, i) {
                 return xScale(i);
             })
-            .attr("y", function(d, i) {
+            .attr("y", function (d, i) {
                 return yScale(d[0].value);
             })
             .attr("width", xScale.rangeBand())
-            .attr("height", function(d) {
+            .attr("height", function (d) {
                 return yScale(0) - yScale(d[0].value);
             })
-            .attr("fill", function(d) {
+            .attr("fill", function (d) {
                 return "rgb(96, 0, " + (d[0].value * 10) + ")";
             });
 
@@ -52,24 +52,24 @@ d3.csv("./data/indbyggere.csv", function(data) {
             .data(dataset)
             .enter()
             .append("text")
-            .text(function(d) {
+            .text(function (d) {
                 return d[0].value;
             })
             .attr("text-anchor", "middle")
-            .attr("x", function(d, i) {
+            .attr("x", function (d, i) {
                 return xScale(i) + xScale.rangeBand() / 2;
             })
-            .attr("y", function(d) {
-                if(d[0].value > 30){
+            .attr("y", function (d) {
+                if (d[0].value > 30) {
                     return yScale(d[0].value) + 14;
                 }
-                else{
+                else {
                     return yScale(d[0].value) - 10;
                 }
             })
             .attr("font-family", "sans-serif")
             .attr("font-size", "11px")
-            .attr("fill", function(d) {
+            .attr("fill", function (d) {
                 if (yScale(d[0].value) > 30) {
                     return "white";
                 }
@@ -88,29 +88,25 @@ d3.csv("./data/indbyggere.csv", function(data) {
             .ticks(5);
 
 
-        svg.append("text")      // text label for the x axis
-            .attr("x", width / 2)
-            .attr("y", height-padding+35)
-            .style("text-anchor", "middle")
-            .text("District");
+
 
         svg.selectAll("text.labels")
-        .data(dataset)
-        .enter()
-        .append("text")
-        .text(function(d) {
-            return d[0].key;
-        })
-        .attr("text-anchor", "middle")
-        .attr("x", function(d, i) {
-            return xScale(i) + xScale.rangeBand() / 2;
-        })
-        .attr("y", function(d) {
-            return height - 50;
-        })
-        .attr("font-family", "sans-serif")
-        .attr("font-size", "11px")
-        .attr("fill", "black");
+            .data(dataset)
+            .enter()
+            .append("text")
+            .text(function (d) {
+                return d[0].key;
+            })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) {
+                return xScale(i) + xScale.rangeBand() / 2;
+            })
+            .attr("y", function (d) {
+                return height - 50;
+            })
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "11px")
+            .attr("fill", "black");
 
 
         //Create Y axis
@@ -122,10 +118,16 @@ d3.csv("./data/indbyggere.csv", function(data) {
         svg.append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", 0)
-            .attr("x", padding/2 - (height / 2))
+            .attr("x", padding / 2 - (height / 2))
             .attr("dy", "1em")
             .style("text-anchor", "middle")
             .text("Population");
+
+        svg.append("text")      // text label for the x axis
+            .attr("x", width / 2)
+            .attr("y", height - padding + 70)
+            .style("text-anchor", "middle")
+            .text("District");
     }
 
     plotColumns(d3.select("#columns"));
