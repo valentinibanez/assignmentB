@@ -8,6 +8,15 @@ svg {
 }
 
 /* Plot styling */
+.last svg,div {
+    display: inline !important;
+}
+
+#menu {
+
+    display: block !important;
+    margin: auto;
+}
 /* map */
 .feature {
   fill: #ccc;

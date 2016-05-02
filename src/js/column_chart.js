@@ -1,8 +1,10 @@
 var dataset = [];
 d3.csv("./data/indbyggere.csv", function (data) {
     dataset = data.map(function (d) { return [{ key: d["Bydel"], value: +d["Personer"] }] });
-    console.log(dataset[0][0].value);
-
+    var color = d3.scale.linear()
+        .domain([64988, 95600, 131694])
+        .range(["#ffead3", "#ffa84c", "#ff8300"])
+        .interpolate(d3.interpolateHcl);
 
     function plotColumns(selection) {
         //Width, height and padding
@@ -44,7 +46,7 @@ d3.csv("./data/indbyggere.csv", function (data) {
                 return yScale(0) - yScale(d[0].value);
             })
             .attr("fill", function (d) {
-                return "rgb(96, 0, " + (d[0].value * 10) + ")";
+                return color(d[0].value);
             });
 
         // Create labels
@@ -60,7 +62,7 @@ d3.csv("./data/indbyggere.csv", function (data) {
                 return xScale(i) + xScale.rangeBand() / 2;
             })
             .attr("y", function (d) {
-                if (d[0].value > 30) {
+                if (yScale(d[0].value) < height - padding - 30) {
                     return yScale(d[0].value) + 14;
                 }
                 else {
@@ -70,8 +72,10 @@ d3.csv("./data/indbyggere.csv", function (data) {
             .attr("font-family", "sans-serif")
             .attr("font-size", "11px")
             .attr("fill", function (d) {
-                if (yScale(d[0].value) > 30) {
-                    return "white";
+                console.log(yScale(d[0].value))
+                console.log(height-padding)
+                if (yScale(d[0].value) < height - padding - 30) {
+                    return "black";
                 }
                 else {
                     return "black";

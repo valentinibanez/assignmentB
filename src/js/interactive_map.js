@@ -1,6 +1,6 @@
-function plotMap(selection) {
-    const width = 300,
-        height = 350;
+function plotMap2(selection) {
+    const width = 400,
+        height = 500;
 
     let svg = selection.append("svg")
         .attr("width", width)
@@ -8,9 +8,10 @@ function plotMap(selection) {
 
     var g = svg.append("g");
 
-    var zoom = d3.behavior.zoom()
-        .scaleExtent([0.5, 15])
-        .on("zoom", zoomed);
+    // Stuff for tooltip
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
 
     // Stuff for colors and legends
     var ext_color_domain = [64988, 95600, 131694]
@@ -21,6 +22,9 @@ function plotMap(selection) {
         .interpolate(d3.interpolateHcl);
 
     // stuff for zooming
+    // var zoom = d3.behavior.zoom()
+    //     .scaleExtent([0.5, 15])
+    //     .on("zoom", zoomed);
     // svg
     //     .call(zoom)
     //     .call(zoom.event);
@@ -32,15 +36,14 @@ function plotMap(selection) {
         .await(ready);
     function ready(error, geo, citizens) {
         if (error) throw error;
-        let rates = {} 
-        citizens.map(function(d) {
+        let rates = {}
+        citizens.map(function (d) {
             const antal = d.Personer;
             const bydel = d.Bydel;
-            const objekt = {"bydel": bydel, "personer": antal};
+            const objekt = { "bydel": bydel, "personer": antal };
             rates[bydel] = antal;
             return false
         });
-        console.log(rates);
         const states = topojson.feature(geo, geo.objects.bydele),
             state = states.features.filter(function (d) { return d.properties.bydel_nr === 9; })[0];
 
@@ -67,22 +70,28 @@ function plotMap(selection) {
             })
             //Adding mouseevents
             .on("mouseover", function (d) {
-                // link with bars
-                dataSelector = d.properties.bydel_nr;
-                transition();
-                // show tooltip
+                // show border
                 d3.select(this)
                     .transition().duration(300)
                     .style('stroke', 'black')
                     .style('stroke-width', '1');
-                
+                // show tooltip
+                div.transition().duration(300)
+                    .style("opacity", 1)
+                div.text(d.properties.navn + " : " + rates[d.properties.navn])
+                    .style("left", (d3.event.pageX) + "px")
+                    .style("top", (d3.event.pageY - 30) + "px");
             })
             .on("mouseout", function () {
+                // hide border
                 d3.select(this)
                     .transition().duration(600)
                     .style('stroke', 'red')
                     .style('stroke-width', '0');
+                div.transition().duration(300)
+                    .style("opacity", 0)
             })
+
 
         //TODO: add labels to all districts
         g.attr("class", "region")
@@ -126,11 +135,12 @@ function plotMap(selection) {
             .text(function (d, i) { return legend_labels[i]; });
     }
 
-    function zoomed() {
-        g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-    }
+    // stuff for zooming
+    // function zoomed() {
+    //     g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+    // }
 
     d3.select(self.frameElement).style("height", height + "px");
 }
 
-plotMap(d3.select("#map"));
+plotMap2(d3.select("#map1"));
