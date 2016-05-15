@@ -32,7 +32,7 @@ function plotMap(selection) {
         .await(ready);
     function ready(error, geo, citizens) {
         if (error) throw error;
-        let rates = {} 
+        let rates = {}
         citizens.map(function(d) {
             const antal = d.Personer;
             const bydel = d.Bydel;
@@ -75,9 +75,11 @@ function plotMap(selection) {
                     .transition().duration(300)
                     .style('stroke', 'black')
                     .style('stroke-width', '1');
-                
+
             })
             .on("mouseout", function () {
+                dataSelector = 11;
+                transition();
                 d3.select(this)
                     .transition().duration(600)
                     .style('stroke', 'red')

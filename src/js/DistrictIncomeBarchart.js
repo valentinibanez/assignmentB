@@ -4,10 +4,10 @@
 
 //Width and height
 //Width and height
-var barChartw = 400;
-var barCharth = 350;
+var barChartw = 600;
+var barCharth = 400;
 var barPadding = 1;
-var barChartPadding = { bottom: 50, left: 40, top: 40 };
+var barChartPadding = { bottom: 80, left: 40, top: 80 };
 
 var barchartDataset = [];
 var allCounts = [];
@@ -15,10 +15,13 @@ var categories = [];
 
 var barchartYScale;
 var barchartSvg;
-var dataSelector = 1;
+var dataSelector = 11;
 
 var valueLabels;
-var title = "";
+var catLabels;
+var title;
+var context = "Income";
+var contextTitle;
 var container;
 
 var formatter = d3.format(",.1%");
@@ -27,7 +30,7 @@ d3.select("#menu")
     .attr("class", "DataBtn")
     .attr("id", "m2")
     .on("click", function () {
-
+        context = "m2"
         LoadAndTransition("m2_indbygger_bydel_T_procenter.csv");
     })
     .text("m2");
@@ -36,7 +39,7 @@ d3.select("#menu")
     .attr("class", "DataBtn")
     .attr("id", "m2")
     .on("click", function () {
-
+        context = "Income"
         LoadAndTransition("personer_indkomst_bydel_procenter_T.csv");
     })
     .text("Income");
@@ -45,7 +48,7 @@ d3.select("#menu")
     .attr("class", "DataBtn")
     .attr("id", "m2")
     .on("click", function () {
-
+        context = "Residence"
         LoadAndTransition("Ejerforhold_indbygger_bydel_T_procenter.csv");
     })
     .text("Residence");
@@ -54,30 +57,10 @@ d3.select("#menu")
     .attr("class", "DataBtn")
     .attr("id", "m2")
     .on("click", function () {
-
+        context = "Age"
         LoadAndTransition("Aldersgruppe_indbyggere_bydel_T_procenter.csv");
     })
     .text("Age");
-d3.select("#menu")
-    .append("div")
-    .attr("class", "arrow-left")
-    .attr("id", "back")
-    .on("click", function () {
-        if (dataSelector > 1) {
-            dataSelector--;
-        }
-        transition();
-    });
-d3.select("#menu")
-    .append("div")
-    .attr("class", "arrow-right")
-    .attr("id", "next")
-    .on("click", function () {
-        if (dataSelector < 11) {
-            dataSelector++;
-        }
-        transition();
-    });
 container = d3.select("#histogram")
     .style("margin", "10px")
     .attr("id", "chartContainer");
@@ -120,28 +103,21 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
             return "rgb(90,140,180)";
         });
 
-
-
     // add category labels
-    barchartSvg.selectAll("text.labels")
+    catLabels = barchartSvg.selectAll("gText")
         .data(barchartDataset)
         .enter()
+        .append("svg:g")
+        .attr("transform", function(d, i) {return "translate(" + (i * (barChartw / barchartDataset.length) + (barChartw / barchartDataset.length - barPadding) / 2 + barChartPadding.left )+ "," + (barCharth - 60) + ")";})
         .append("text")
         .text(function (d) {
             return d[0];
         })
-        .attr("text-anchor", "middle")
-        .attr("x", function (d, i) {
-            return i * (barChartw / barchartDataset.length) + (barChartw / barchartDataset.length - barPadding) / 2 + barChartPadding.left;
-        })
-        .attr("y", function (d) {
-            return barCharth - 30;
-        })
         .attr("font-family", "sans-serif")
         .attr("font-size", "11px")
         .attr("fill", "black")
-        // .attr("transform", "rotate(90)") // Rotate the text
-        .style("text-anchor", "middle");
+		.attr("text-anchor","end")
+		.attr("transform", function(d, i) {return "translate(10,0) rotate(-15,0,0)";});
 
     // add value labels
     valueLabels = barchartSvg.selectAll("text.values")
@@ -182,14 +158,20 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
         .style("text-anchor", "middle")
         .text("Pct. of people");
     title = barchartSvg.append("text")
-        .attr("y", 0)
+        .attr("y", 40)
         .attr("x", (barChartw / 2) + barChartPadding.left / 2)
         .attr("dy", "1em")
         .style("text-anchor", "middle")
-        .text(function (d) {
-            titleFinder();
-            console.log(titleFinder());
-        });
+        .text(titleFinder());
+
+    contextTitle = barchartSvg.append("text")
+        .attr("y", 20)
+        .attr("x", (barChartw / 2) + barChartPadding.left / 2)
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text(context);
+    contextTitle.text(context);
+    title.text(titleFinder());
 });
 
 var titleFinder = function () {
@@ -246,6 +228,7 @@ var transition = function () {
         });
     // redraw title
     title.text(titleFinder());
+    contextTitle.text(context);
 }
 var LoadAndTransition = function (fileName) {
 
@@ -283,31 +266,31 @@ var LoadAndTransition = function (fileName) {
             .attr("fill", function (d) {
                 return "rgb(90,140,180)";
             });
+        // remove old  labels
+        valueLabels.remove();
+        catLabels.remove();
 
-        var categoryLabels = barchartSvg.selectAll("text").data(barchartDataset);
-        // remove old and add new category labels
-        categoryLabels.exit().remove();
 
-        categoryLabels.transition()
-            .duration(500)
+        // add new labels
+        catLabels = barchartSvg.selectAll("gText")
+            .data(barchartDataset)
+            .enter()
+            .append("svg:g")
+            .attr("transform", function(d, i) {return "translate(" + (i * (barChartw / barchartDataset.length) + (barChartw / barchartDataset.length - barPadding) / 2 + barChartPadding.left )+ "," + (barCharth - 60) + ")";})
+            .append("text")
             .text(function (d) {
                 return d[0];
             })
-            .attr("text-anchor", "middle")
-            .attr("x", function (d, i) {
-                return i * (barChartw / barchartDataset.length) + (barChartw / barchartDataset.length - barPadding) / 2 + barChartPadding.left;
-            })
-            .attr("y", function (d) {
-                return barCharth - 30;
-            })
             .attr("font-family", "sans-serif")
             .attr("font-size", "11px")
-            .attr("fill", "black");
+            .attr("fill", "black")
+    		.attr("text-anchor","end")
+    		.attr("transform", function(d, i) {return "translate(10,0) rotate(-15,0,0)";});
 
-        // remove old and add new value labels
+
         valueLabels = barchartSvg.selectAll("text.values")
-            .data(barchartDataset);
-        valueLabels.enter()
+            .data(barchartDataset)
+            .enter()
             .append("text")
             .text(function (d) {
                 return formatter(d[dataSelector]);
@@ -334,22 +317,6 @@ var LoadAndTransition = function (fileName) {
                     return "black";
                 }
             });
-        // add axis label
-        barchartSvg.append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 0)
-            .attr("x", 0 - (barCharth / 2))
-            .attr("dy", "1em")
-            .style("text-anchor", "middle")
-            .text("Pct. of people");
-        title = barchartSvg.append("text")
-            .attr("y", 0)
-            .attr("x", (barChartw / 2) + barChartPadding.left / 2)
-            .attr("dy", "1em")
-            .style("text-anchor", "middle")
-            .text(function (d) {
-                titleFinder();
-            });
-        transition();
+            transition();
     });
 }
