@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<EJERFORHOLD=Almennyttigt boligbyggeri &le; 0.5<br/>gini = 0.8949<br/>samples = 273939<br/>value = [31026, 26944, 26425, 18173, 25760, 36935, 24215, 18213, 29362<br/>36886]<br/>class = Vanløse>, fillcolor="#399de500"] ;
+1 [label=<EJERFORHOLD=Ejerbolig &le; 0.5<br/>gini = 0.8921<br/>samples = 218732<br/>value = [23887, 23030, 17837, 10244, 24506, 28675, 18673, 15741, 23501<br/>32638]<br/>class = Amager Vest>, fillcolor="#e5395805"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<SAMAREAL=120 m2 og derover &le; 0.5<br/>gini = 0.8864<br/>samples = 163750<br/>value = [15981, 16494, 15120, 4914, 18124, 25622, 12831, 10168, 18930<br/>25566]<br/>class = Vanløse>, fillcolor="#399de500"] ;
+1 -> 2 ;
+3 [label=<gini = 0.8875<br/>samples = 148438<br/>value = [14590, 15761, 14729, 4685, 13828, 23567, 12158, 9676, 17138<br/>22306]<br/>class = Vanløse>, fillcolor="#399de503"] ;
+2 -> 3 ;
+4 [label=<gini = 0.8299<br/>samples = 15312<br/>value = [1391, 733, 391, 229, 4296, 2055, 673, 492, 1792, 3260]<br/>class = Valby>, fillcolor="#39e5c516"] ;
+2 -> 4 ;
+5 [label=<SAMAREAL=40 - 59 m2 &le; 0.5<br/>gini = 0.8918<br/>samples = 54982<br/>value = [7906, 6536, 2717, 5330, 6382, 3053, 5842, 5573, 4571, 7072]<br/>class = Indre By>, fillcolor="#e5813904"] ;
+1 -> 5 ;
+6 [label=<gini = 0.8883<br/>samples = 47235<br/>value = [7492, 5078, 2108, 5004, 5780, 2034, 5072, 4845, 3732, 6090]<br/>class = Indre By>, fillcolor="#e5813909"] ;
+5 -> 6 ;
+7 [label=<gini = 0.8839<br/>samples = 7747<br/>value = [414, 1458, 609, 326, 602, 1019, 770, 728, 839, 982]<br/>class = Østerbro>, fillcolor="#e2e53911"] ;
+5 -> 7 ;
+8 [label=<SAMAREAL=80 - 99 m2 &le; 0.5<br/>gini = 0.8812<br/>samples = 55207<br/>value = [7139, 3914, 8588, 7929, 1254, 8260, 5542, 2472, 5861, 4248]<br/>class = Nørrebro>, fillcolor="#7be53902"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<SAMAREAL=Under 40 m2 &le; 0.5<br/>gini = 0.88<br/>samples = 39712<br/>value = [4969, 2745, 7091, 5148, 765, 4810, 4263, 1677, 4982, 3262]<br/>class = Nørrebro>, fillcolor="#7be5390e"] ;
+8 -> 9 ;
+10 [label=<gini = 0.8783<br/>samples = 36924<br/>value = [4035, 2587, 7013, 4851, 618, 4300, 4132, 1569, 4723, 3096]<br/>class = Nørrebro>, fillcolor="#7be53911"] ;
+9 -> 10 ;
+11 [label=<gini = 0.8203<br/>samples = 2788<br/>value = [934, 158, 78, 297, 147, 510, 131, 108, 259, 166]<br/>class = Indre By>, fillcolor="#e581392f"] ;
+9 -> 11 ;
+12 [label=<gini = 0.8659<br/>samples = 15495<br/>value = [2170, 1169, 1497, 2781, 489, 3450, 1279, 795, 879, 986]<br/>class = Vanløse>, fillcolor="#399de50d"] ;
+8 -> 12 ;
+}

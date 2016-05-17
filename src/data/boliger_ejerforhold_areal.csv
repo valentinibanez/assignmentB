@@ -1,0 +1,663 @@
+Antal boliger,Boligtype,EJERFORHOLD,SAMAREAL,Hierarchy,Bydel,År Tab 14-19
+92,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Indre By,2016
+84,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Østerbro,2016
+50,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Nørrebro,2016
+87,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+64,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Valby,2016
+43,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Vanløse,2016
+58,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Brønshøj-Husum,2016
+110,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Bispebjerg,2016
+130,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Amager Øst,2016
+72,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,Under 40 m2,Bydele,Amager Vest,2016
+175,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Indre By,2016
+106,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Østerbro,2016
+179,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Nørrebro,2016
+36,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+197,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Valby,2016
+35,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Vanløse,2016
+12,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Brønshøj-Husum,2016
+60,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Bispebjerg,2016
+71,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Amager Øst,2016
+213,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,Under 40 m2,Bydele,Amager Vest,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,40 - 59 m2,Bydele,Indre By,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,40 - 59 m2,Bydele,Østerbro,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,40 - 59 m2,Bydele,Bispebjerg,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,40 - 59 m2,Bydele,Amager Øst,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,40 - 59 m2,Bydele,Amager Vest,2016
+643,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Indre By,2016
+1053,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Østerbro,2016
+1099,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Nørrebro,2016
+902,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+846,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Valby,2016
+791,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Vanløse,2016
+365,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+674,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Bispebjerg,2016
+1630,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Amager Øst,2016
+444,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,40 - 59 m2,Bydele,Amager Vest,2016
+26,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Indre By,2016
+27,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Østerbro,2016
+13,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Nørrebro,2016
+6,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Valby,2016
+13,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Vanløse,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+4,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Bispebjerg,2016
+5,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Amager Øst,2016
+10,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,40 - 59 m2,Bydele,Amager Vest,2016
+2,Fællesbolig eller fælleshusholdning,Ejerbolig,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,60 - 79 m2,Bydele,Indre By,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,60 - 79 m2,Bydele,Østerbro,2016
+3,Blandet erhverv og beboelse med eget køkken,Ejerbolig,60 - 79 m2,Bydele,Nørrebro,2016
+4,Blandet erhverv og beboelse med eget køkken,Ejerbolig,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,60 - 79 m2,Bydele,Amager Øst,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,60 - 79 m2,Bydele,Amager Vest,2016
+882,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Indre By,2016
+1568,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Østerbro,2016
+823,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Nørrebro,2016
+992,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1178,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Valby,2016
+1237,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Vanløse,2016
+810,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+561,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Bispebjerg,2016
+1537,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Amager Øst,2016
+1248,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,60 - 79 m2,Bydele,Amager Vest,2016
+13,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Indre By,2016
+7,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Østerbro,2016
+5,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Nørrebro,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Valby,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Vanløse,2016
+4,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Bispebjerg,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Amager Øst,2016
+14,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,60 - 79 m2,Bydele,Amager Vest,2016
+1,Fællesbolig eller fælleshusholdning,Ejerbolig,60 - 79 m2,Bydele,Nørrebro,2016
+1,Fællesbolig eller fælleshusholdning,Ejerbolig,60 - 79 m2,Bydele,Bispebjerg,2016
+1,Fællesbolig eller fælleshusholdning,Ejerbolig,60 - 79 m2,Bydele,Amager Vest,2016
+9,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Indre By,2016
+4,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Østerbro,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Nørrebro,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+5,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Valby,2016
+8,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Vanløse,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Bispebjerg,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Amager Øst,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,80 - 99 m2,Bydele,Amager Vest,2016
+1076,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Indre By,2016
+1432,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Østerbro,2016
+514,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Nørrebro,2016
+1347,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1254,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Valby,2016
+1067,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Vanløse,2016
+1197,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+437,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Bispebjerg,2016
+1162,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Amager Øst,2016
+2168,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,80 - 99 m2,Bydele,Amager Vest,2016
+10,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,80 - 99 m2,Bydele,Indre By,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,80 - 99 m2,Bydele,Østerbro,2016
+19,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,80 - 99 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,80 - 99 m2,Bydele,Bispebjerg,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,80 - 99 m2,Bydele,Amager Øst,2016
+9,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Indre By,2016
+4,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Østerbro,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Nørrebro,2016
+5,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+5,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Valby,2016
+13,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Vanløse,2016
+6,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+3,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Bispebjerg,2016
+2,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Amager Øst,2016
+1,Blandet erhverv og beboelse med eget køkken,Ejerbolig,100 - 119 m2,Bydele,Amager Vest,2016
+1103,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Indre By,2016
+1088,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Østerbro,2016
+251,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Nørrebro,2016
+834,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+925,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Valby,2016
+986,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Vanløse,2016
+1180,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+387,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Bispebjerg,2016
+1073,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Amager Øst,2016
+2249,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,100 - 119 m2,Bydele,Amager Vest,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,100 - 119 m2,Bydele,Indre By,2016
+10,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,100 - 119 m2,Bydele,Valby,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,100 - 119 m2,Bydele,Vanløse,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,100 - 119 m2,Bydele,Bispebjerg,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,100 - 119 m2,Bydele,Amager Øst,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,100 - 119 m2,Bydele,Amager Vest,2016
+117,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Indre By,2016
+85,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Østerbro,2016
+11,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Nørrebro,2016
+11,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+56,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Valby,2016
+67,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Vanløse,2016
+52,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+20,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Bispebjerg,2016
+35,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Amager Øst,2016
+34,Blandet erhverv og beboelse med eget køkken,Ejerbolig,120 m2 og derover,Bydele,Amager Vest,2016
+2836,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Indre By,2016
+2381,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Østerbro,2016
+411,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Nørrebro,2016
+792,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+1941,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Valby,2016
+1920,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Vanløse,2016
+2243,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+750,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Bispebjerg,2016
+1584,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Amager Øst,2016
+2262,Egentlig beboelseslejlighed (med eget køkken),Ejerbolig,120 m2 og derover,Bydele,Amager Vest,2016
+13,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,120 m2 og derover,Bydele,Indre By,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,120 m2 og derover,Bydele,Østerbro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,120 m2 og derover,Bydele,Nørrebro,2016
+5,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,120 m2 og derover,Bydele,Vanløse,2016
+7,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Ejerbolig,120 m2 og derover,Bydele,Amager Vest,2016
+1,Fællesbolig eller fælleshusholdning,Ejerbolig,120 m2 og derover,Bydele,Indre By,2016
+3,Fællesbolig eller fælleshusholdning,Ejerbolig,120 m2 og derover,Bydele,Østerbro,2016
+2,Fællesbolig eller fælleshusholdning,Ejerbolig,120 m2 og derover,Bydele,Nørrebro,2016
+1,Fællesbolig eller fælleshusholdning,Ejerbolig,120 m2 og derover,Bydele,Valby,2016
+2,Fællesbolig eller fælleshusholdning,Ejerbolig,120 m2 og derover,Bydele,Vanløse,2016
+1,Fællesbolig eller fælleshusholdning,Ejerbolig,120 m2 og derover,Bydele,Amager Øst,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat udlejning,Under 40 m2,Bydele,Indre By,2016
+335,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Indre By,2016
+614,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Østerbro,2016
+167,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Nørrebro,2016
+247,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+166,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Valby,2016
+93,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Vanløse,2016
+161,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Brønshøj-Husum,2016
+629,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Bispebjerg,2016
+642,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Amager Øst,2016
+359,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,Under 40 m2,Bydele,Amager Vest,2016
+555,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Indre By,2016
+706,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Østerbro,2016
+787,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Nørrebro,2016
+373,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+130,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Valby,2016
+54,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Vanløse,2016
+5,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Brønshøj-Husum,2016
+229,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Bispebjerg,2016
+298,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Amager Øst,2016
+1436,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,Under 40 m2,Bydele,Amager Vest,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,40 - 59 m2,Bydele,Indre By,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat udlejning,40 - 59 m2,Bydele,Østerbro,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat udlejning,40 - 59 m2,Bydele,Nørrebro,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat udlejning,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat udlejning,40 - 59 m2,Bydele,Bispebjerg,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat udlejning,40 - 59 m2,Bydele,Amager Vest,2016
+1872,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Indre By,2016
+3126,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Østerbro,2016
+3716,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Nørrebro,2016
+1941,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1912,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Valby,2016
+2402,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Vanløse,2016
+846,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+3070,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Bispebjerg,2016
+2873,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Amager Øst,2016
+1222,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,40 - 59 m2,Bydele,Amager Vest,2016
+87,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Indre By,2016
+38,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Østerbro,2016
+104,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Nørrebro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Valby,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Vanløse,2016
+6,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+6,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Bispebjerg,2016
+29,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Amager Øst,2016
+20,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,40 - 59 m2,Bydele,Amager Vest,2016
+10,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Indre By,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Østerbro,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Nørrebro,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Valby,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Vanløse,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Bispebjerg,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat udlejning,60 - 79 m2,Bydele,Amager Øst,2016
+2139,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Indre By,2016
+3159,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Østerbro,2016
+2556,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Nørrebro,2016
+1552,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2012,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Valby,2016
+1998,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Vanløse,2016
+772,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+1629,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Bispebjerg,2016
+2021,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Amager Øst,2016
+1901,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,60 - 79 m2,Bydele,Amager Vest,2016
+8,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Indre By,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Østerbro,2016
+10,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Nørrebro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Valby,2016
+7,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Bispebjerg,2016
+31,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Amager Øst,2016
+297,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,60 - 79 m2,Bydele,Amager Vest,2016
+12,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Indre By,2016
+11,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Østerbro,2016
+10,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Nørrebro,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Valby,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Vanløse,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Bispebjerg,2016
+9,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Amager Øst,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,80 - 99 m2,Bydele,Amager Vest,2016
+2420,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Indre By,2016
+2307,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Østerbro,2016
+1523,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Nørrebro,2016
+1456,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1044,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Valby,2016
+522,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Vanløse,2016
+332,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+826,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Bispebjerg,2016
+838,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Amager Øst,2016
+1743,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,80 - 99 m2,Bydele,Amager Vest,2016
+8,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Indre By,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Østerbro,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Nørrebro,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Amager Øst,2016
+11,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,80 - 99 m2,Bydele,Amager Vest,2016
+21,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Indre By,2016
+9,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Østerbro,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Nørrebro,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Valby,2016
+7,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Vanløse,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Bispebjerg,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Amager Øst,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat udlejning,100 - 119 m2,Bydele,Amager Vest,2016
+1491,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Indre By,2016
+1226,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Østerbro,2016
+561,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Nørrebro,2016
+737,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+327,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Valby,2016
+235,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Vanløse,2016
+105,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+304,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Bispebjerg,2016
+592,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Amager Øst,2016
+941,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,100 - 119 m2,Bydele,Amager Vest,2016
+4,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,100 - 119 m2,Bydele,Indre By,2016
+4,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,100 - 119 m2,Bydele,Østerbro,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,100 - 119 m2,Bydele,Valby,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,100 - 119 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,100 - 119 m2,Bydele,Amager Vest,2016
+148,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Indre By,2016
+57,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Østerbro,2016
+13,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Nørrebro,2016
+36,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+15,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Valby,2016
+21,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Vanløse,2016
+16,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+7,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Bispebjerg,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Amager Øst,2016
+12,Blandet erhverv og beboelse med eget køkken,Privat udlejning,120 m2 og derover,Bydele,Amager Vest,2016
+3140,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Indre By,2016
+1493,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Østerbro,2016
+670,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Nørrebro,2016
+613,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+239,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Valby,2016
+282,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Vanløse,2016
+134,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+164,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Bispebjerg,2016
+317,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Amager Øst,2016
+611,Egentlig beboelseslejlighed (med eget køkken),Privat udlejning,120 m2 og derover,Bydele,Amager Vest,2016
+13,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Indre By,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Østerbro,2016
+6,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Nørrebro,2016
+11,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Valby,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Bispebjerg,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat udlejning,120 m2 og derover,Bydele,Amager Vest,2016
+3,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Indre By,2016
+1,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Østerbro,2016
+2,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Nørrebro,2016
+2,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+1,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Vanløse,2016
+6,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Bispebjerg,2016
+1,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Amager Øst,2016
+4,Fællesbolig eller fælleshusholdning,Privat udlejning,120 m2 og derover,Bydele,Amager Vest,2016
+77,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Indre By,2016
+135,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Østerbro,2016
+378,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Nørrebro,2016
+169,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+117,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Valby,2016
+37,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Vanløse,2016
+314,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Brønshøj-Husum,2016
+86,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Bispebjerg,2016
+144,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Amager Øst,2016
+427,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,Under 40 m2,Bydele,Amager Vest,2016
+86,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Indre By,2016
+61,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Østerbro,2016
+196,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Nørrebro,2016
+118,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+24,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Valby,2016
+85,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Vanløse,2016
+18,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Brønshøj-Husum,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Bispebjerg,2016
+27,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Amager Øst,2016
+618,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,Under 40 m2,Bydele,Amager Vest,2016
+2,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Valby,2016
+127,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Indre By,2016
+1141,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Østerbro,2016
+1519,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Nørrebro,2016
+1565,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1306,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Valby,2016
+710,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Vanløse,2016
+1507,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+3103,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Bispebjerg,2016
+900,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Amager Øst,2016
+1429,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Amager Vest,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Østerbro,2016
+32,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Nørrebro,2016
+46,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Bispebjerg,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,40 - 59 m2,Bydele,Amager Vest,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+426,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Indre By,2016
+1907,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Østerbro,2016
+2842,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Nørrebro,2016
+3109,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2640,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Valby,2016
+916,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Vanløse,2016
+3234,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+4463,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Bispebjerg,2016
+1830,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Amager Øst,2016
+1987,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Amager Vest,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Østerbro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Nørrebro,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+27,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Valby,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,60 - 79 m2,Bydele,Vanløse,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Østerbro,2016
+5,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+7,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Bispebjerg,2016
+550,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Indre By,2016
+1107,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Østerbro,2016
+3802,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Nørrebro,2016
+977,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1433,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Valby,2016
+888,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Vanløse,2016
+3077,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+1679,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Bispebjerg,2016
+1285,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Amager Øst,2016
+2388,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Amager Vest,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Nørrebro,2016
+1,Fællesbolig eller fælleshusholdning,Almennyttigt boligbyggeri,80 - 99 m2,Bydele,Østerbro,2016
+2,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Nørrebro,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Valby,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+13,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Bispebjerg,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Amager Øst,2016
+3,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Amager Vest,2016
+94,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Indre By,2016
+251,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Østerbro,2016
+261,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Nørrebro,2016
+462,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+602,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Valby,2016
+127,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Vanløse,2016
+600,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+191,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Bispebjerg,2016
+94,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Amager Øst,2016
+991,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Amager Vest,2016
+8,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,100 - 119 m2,Bydele,Amager Vest,2016
+1,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Nørrebro,2016
+2,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+3,Blandet erhverv og beboelse med eget køkken,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Bispebjerg,2016
+26,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Indre By,2016
+124,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Østerbro,2016
+116,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Nørrebro,2016
+55,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+2,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Valby,2016
+23,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Vanløse,2016
+27,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+19,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Bispebjerg,2016
+83,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Amager Øst,2016
+50,Egentlig beboelseslejlighed (med eget køkken),Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Amager Vest,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Amager Vest,2016
+2,Fællesbolig eller fælleshusholdning,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Østerbro,2016
+1,Fællesbolig eller fælleshusholdning,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+1,Fællesbolig eller fælleshusholdning,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+1,Fællesbolig eller fælleshusholdning,Almennyttigt boligbyggeri,120 m2 og derover,Bydele,Amager Vest,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,Under 40 m2,Bydele,Brønshøj-Husum,2016
+64,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Indre By,2016
+107,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Østerbro,2016
+248,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Nørrebro,2016
+182,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+34,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Valby,2016
+107,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Vanløse,2016
+20,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Brønshøj-Husum,2016
+174,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Bispebjerg,2016
+197,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Amager Øst,2016
+50,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,Under 40 m2,Bydele,Amager Vest,2016
+57,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Indre By,2016
+143,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Østerbro,2016
+16,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Nørrebro,2016
+6,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Vesterbro/Kongens Enghave,2016
+33,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Valby,2016
+38,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Vanløse,2016
+25,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Bispebjerg,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Amager Øst,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,Under 40 m2,Bydele,Amager Vest,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,40 - 59 m2,Bydele,Østerbro,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,40 - 59 m2,Bydele,Nørrebro,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,40 - 59 m2,Bydele,Bispebjerg,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,40 - 59 m2,Bydele,Amager Øst,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,40 - 59 m2,Bydele,Amager Vest,2016
+1017,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Indre By,2016
+2991,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Østerbro,2016
+4723,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Nørrebro,2016
+3764,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2439,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Valby,2016
+2146,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Vanløse,2016
+796,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+4266,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Bispebjerg,2016
+3859,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Amager Øst,2016
+1717,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,40 - 59 m2,Bydele,Amager Vest,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Indre By,2016
+21,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Østerbro,2016
+4,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Nørrebro,2016
+8,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Bispebjerg,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,40 - 59 m2,Bydele,Amager Øst,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Indre By,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Østerbro,2016
+7,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Nørrebro,2016
+7,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Valby,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Bispebjerg,2016
+7,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Amager Øst,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,60 - 79 m2,Bydele,Amager Vest,2016
+1769,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Indre By,2016
+3945,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Østerbro,2016
+5717,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Nørrebro,2016
+4127,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+3056,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Valby,2016
+1639,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Vanløse,2016
+770,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+3336,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Bispebjerg,2016
+3661,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Amager Øst,2016
+3579,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,60 - 79 m2,Bydele,Amager Vest,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Indre By,2016
+7,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Østerbro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Nørrebro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Valby,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,60 - 79 m2,Bydele,Amager Vest,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Indre By,2016
+19,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Østerbro,2016
+9,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Nørrebro,2016
+13,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Valby,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Vanløse,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Bispebjerg,2016
+2,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Amager Øst,2016
+8,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,80 - 99 m2,Bydele,Amager Vest,2016
+1647,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Indre By,2016
+3868,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Østerbro,2016
+3198,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Nørrebro,2016
+3051,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1347,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Valby,2016
+961,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Vanløse,2016
+435,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+1084,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Bispebjerg,2016
+1585,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Amager Øst,2016
+1773,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,80 - 99 m2,Bydele,Amager Vest,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Indre By,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Østerbro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Nørrebro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Valby,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+8,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Indre By,2016
+8,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Østerbro,2016
+12,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Nørrebro,2016
+8,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Valby,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Vanløse,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Bispebjerg,2016
+4,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Amager Øst,2016
+11,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,100 - 119 m2,Bydele,Amager Vest,2016
+925,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Indre By,2016
+2182,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Østerbro,2016
+1738,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Nørrebro,2016
+1360,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+553,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Valby,2016
+562,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Vanløse,2016
+171,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+451,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Bispebjerg,2016
+765,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Amager Øst,2016
+1097,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,100 - 119 m2,Bydele,Amager Vest,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,100 - 119 m2,Bydele,Indre By,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,100 - 119 m2,Bydele,Østerbro,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,100 - 119 m2,Bydele,Nørrebro,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,100 - 119 m2,Bydele,Vanløse,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,100 - 119 m2,Bydele,Amager Vest,2016
+50,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Indre By,2016
+27,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Østerbro,2016
+34,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Nørrebro,2016
+21,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Valby,2016
+6,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Vanløse,2016
+1,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+3,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Bispebjerg,2016
+5,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Amager Øst,2016
+8,Blandet erhverv og beboelse med eget køkken,Privat andelsboligforening,120 m2 og derover,Bydele,Amager Vest,2016
+1283,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Indre By,2016
+2051,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Østerbro,2016
+1518,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Nørrebro,2016
+1279,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+473,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Valby,2016
+227,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Vanløse,2016
+91,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+233,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Bispebjerg,2016
+483,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Amager Øst,2016
+898,Egentlig beboelseslejlighed (med eget køkken),Privat andelsboligforening,120 m2 og derover,Bydele,Amager Vest,2016
+5,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,120 m2 og derover,Bydele,Indre By,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,120 m2 og derover,Bydele,Østerbro,2016
+8,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,120 m2 og derover,Bydele,Nørrebro,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Privat andelsboligforening,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+128,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,Under 40 m2,Bydele,Indre By,2016
+91,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,Under 40 m2,Bydele,Østerbro,2016
+6,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,Under 40 m2,Bydele,Nørrebro,2016
+295,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,Under 40 m2,Bydele,Brønshøj-Husum,2016
+36,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,Under 40 m2,Bydele,Amager Vest,2016
+24,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Indre By,2016
+121,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Østerbro,2016
+511,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Nørrebro,2016
+241,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Valby,2016
+333,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Brønshøj-Husum,2016
+295,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Bispebjerg,2016
+7,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,Under 40 m2,Bydele,Amager Vest,2016
+32,Fællesbolig eller fælleshusholdning,Stat og kommune,Under 40 m2,Bydele,Nørrebro,2016
+157,Fællesbolig eller fælleshusholdning,Stat og kommune,Under 40 m2,Bydele,Valby,2016
+12,Fællesbolig eller fælleshusholdning,Stat og kommune,Under 40 m2,Bydele,Amager Vest,2016
+343,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Indre By,2016
+38,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Østerbro,2016
+22,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Nørrebro,2016
+39,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Vesterbro/Kongens Enghave,2016
+22,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Valby,2016
+101,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+1,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Bispebjerg,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Amager Øst,2016
+12,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,40 - 59 m2,Bydele,Amager Vest,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,40 - 59 m2,Bydele,Indre By,2016
+33,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,40 - 59 m2,Bydele,Nørrebro,2016
+14,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,40 - 59 m2,Bydele,Brønshøj-Husum,2016
+4,Blandet erhverv og beboelse med eget køkken,Stat og kommune,60 - 79 m2,Bydele,Amager Vest,2016
+290,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Indre By,2016
+9,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Østerbro,2016
+436,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Nørrebro,2016
+58,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Vesterbro/Kongens Enghave,2016
+5,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Valby,2016
+6,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Vanløse,2016
+8,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Brønshøj-Husum,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Bispebjerg,2016
+44,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Amager Øst,2016
+8,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,60 - 79 m2,Bydele,Amager Vest,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,60 - 79 m2,Bydele,Indre By,2016
+98,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,60 - 79 m2,Bydele,Nørrebro,2016
+1,Blandet erhverv og beboelse med eget køkken,Stat og kommune,80 - 99 m2,Bydele,Nørrebro,2016
+1,Blandet erhverv og beboelse med eget køkken,Stat og kommune,80 - 99 m2,Bydele,Amager Vest,2016
+74,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Indre By,2016
+2,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Østerbro,2016
+1,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Nørrebro,2016
+71,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Valby,2016
+2,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Vanløse,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Bispebjerg,2016
+31,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,80 - 99 m2,Bydele,Amager Øst,2016
+3,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,80 - 99 m2,Bydele,Indre By,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,80 - 99 m2,Bydele,Brønshøj-Husum,2016
+2,Fællesbolig eller fælleshusholdning,Stat og kommune,80 - 99 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Fællesbolig eller fælleshusholdning,Stat og kommune,80 - 99 m2,Bydele,Valby,2016
+64,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Indre By,2016
+2,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Nørrebro,2016
+28,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Vesterbro/Kongens Enghave,2016
+1,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Valby,2016
+8,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Brønshøj-Husum,2016
+2,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Bispebjerg,2016
+9,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Amager Øst,2016
+1,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,100 - 119 m2,Bydele,Amager Vest,2016
+1,Fællesbolig eller fælleshusholdning,Stat og kommune,100 - 119 m2,Bydele,Indre By,2016
+3,Blandet erhverv og beboelse med eget køkken,Stat og kommune,120 m2 og derover,Bydele,Indre By,2016
+2,Blandet erhverv og beboelse med eget køkken,Stat og kommune,120 m2 og derover,Bydele,Østerbro,2016
+4,Blandet erhverv og beboelse med eget køkken,Stat og kommune,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+1,Blandet erhverv og beboelse med eget køkken,Stat og kommune,120 m2 og derover,Bydele,Amager Øst,2016
+1,Blandet erhverv og beboelse med eget køkken,Stat og kommune,120 m2 og derover,Bydele,Amager Vest,2016
+140,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Indre By,2016
+11,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Østerbro,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Nørrebro,2016
+32,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+5,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Valby,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Vanløse,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+5,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Bispebjerg,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Amager Øst,2016
+4,Egentlig beboelseslejlighed (med eget køkken),Stat og kommune,120 m2 og derover,Bydele,Amager Vest,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,120 m2 og derover,Bydele,Indre By,2016
+1,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+2,"Enkeltværelse (Boligenhed med fast kogeinstallation, fælles køkken eller intet køkken)",Stat og kommune,120 m2 og derover,Bydele,Bispebjerg,2016
+7,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Østerbro,2016
+2,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Vesterbro/Kongens Enghave,2016
+2,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Valby,2016
+3,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Vanløse,2016
+1,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Brønshøj-Husum,2016
+1,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Bispebjerg,2016
+3,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Amager Øst,2016
+10,Fællesbolig eller fælleshusholdning,Stat og kommune,120 m2 og derover,Bydele,Amager Vest,2016
