@@ -567,10 +567,21 @@ var indexOfMax = function (arr) {
 
     return maxIndex;
 }
+var sumUpArray = function(arr){
+    var total = 0;
+    for (var i = 0; i < arr.length; i++){
+        total += arr[i];
+    }
+    return parseFloat(total);
+}
 var sumUpArrays = function (array1, array2, array3, array4){
     var sum = [];
+    var total1 = sumUpArray(array1[0]);
+    var total2 = sumUpArray(array2[0]);
+    var total3 = sumUpArray(array3[0]);
+    var total4 = sumUpArray(array4[0]);
     for(var i = 0; i < array1[0].length; i++){
-       sum.push(array1[0][i] + array2[0][i] + array3[0][i] + array4[0][i]);
+       sum.push(array1[0][i]/total1 + array2[0][i]/total2 + array3[0][i]/total3 + array4[0][i]/total4);
     }
     return sum;
 }
@@ -657,7 +668,5 @@ function predict() {
 
     var result = forestVote(own1, own2, own3, own4, own5, m1, m2, m3, m4, m5, m6, incomeCat, age1, age2, age3, age4, her1, her2, a1, a2, a3, a4, a5, a6, a7, ed1, ed2, ed3, ed4, ed5, ed6, ed7, cs1, cs2, cs3, cs4, c1, c2, c3, c4, c5)
     console.log(result);
+    document.getElementById('result').innerHTML = result;
 }
-
-console.log(result);
-console.log(getLabel(result));
