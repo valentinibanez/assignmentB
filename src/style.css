@@ -1,35 +1,35 @@
 body {
     text-align: center;
     margin: auto;
-    max-width: 950px; /* or 950px */
+    max-width: 950px;
+    /* or 950px */
 }
-.custom {
-
-}
+.custom {}
 .bg {
-  background: url('/assets/splash.jpg') no-repeat center center;
-  background-size: cover;
-  position: absolute;
-  width: 100% !important;
-  height: 450px; /*same height as jumbotron */
-  top:0;
-  left:0;
-  z-index: -1;
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-  padding-left: 0px !important;
+    background: url('/assets/splash.jpg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100% !important;
+    height: 450px;
+    /*same height as jumbotron */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
 }
 .jumbotron {
     margin-right: 0px !important;
     margin-left: 0px !important;
     padding-left: 0px !important;
-  height: 450px !important;
-  display: block !important;
-  position: relative;
-  color: black;
-  text-shadow: #444 0 1px 1px;
-  background:transparent;
-  margin-bottom: 0px;
+    height: 450px !important;
+    display: block !important;
+    position: relative;
+    color: black;
+    text-shadow: #444 0 1px 1px;
+    background: transparent;
+    margin-bottom: 0px;
 }
 
 /* Plot styling */

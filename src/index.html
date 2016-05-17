@@ -14,43 +14,43 @@
     <div class="page-header">
         <div class="bg"></div>
         <div class="jumbotron">
-                <div class="row center-xs">
-                    <div class="box splash-title">
-                        <h1>Copenhagen</h1>
-                    </div>
+            <div class="row center-xs">
+                <div class="box splash-title">
+                    <h1>Copenhagen</h1>
                 </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12 col-sm-4 stat">
-                        <div class="box stat-head">
-                            <p>
-                                Population
-                            </p>
-                            <span>
+            </div>
+            <div class="row center-xs">
+                <div class="col-xs-12 col-sm-4 stat">
+                    <div class="box stat-head">
+                        <p>
+                            Population
+                        </p>
+                        <span>
                                 570.171
                             </span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 stat">
-                        <div class="box stat-head">
-                            <p>
-                                Median income
-                            </p>
-                            <span>
-                                204.008 DKK
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 stat">
-                        <div class="box stat-head">
-                            <p>
-                                Median age
-                            </p>
-                            <span>
-                                35,5 years
-                            </span>
-                        </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-sm-4 stat">
+                    <div class="box stat-head">
+                        <p>
+                            Median income
+                        </p>
+                        <span>
+                                204.008 DKK
+                            </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 stat">
+                    <div class="box stat-head">
+                        <p>
+                            Median age
+                        </p>
+                        <span>
+                                35,5 years
+                            </span>
+                    </div>
+                </div>
+            </div>
             <!-- Maybe add some navigation here -->
         </div>
     </div>
@@ -60,18 +60,14 @@
             <div class="col-xs">
                 <h2>Introduction</h2>
                 <p>
-                    Hello there! Throughout this page we are going to explore the city of Copenhagen and it's residents
-                    based on their age, city district, income, sex, etc.
+                    Hello there! Throughout this page we are going to explore the city of Copenhagen and it's residents based on their age, city district, income, sex, etc.
                 </p>
                 <p>
-                    The data used in this webpage is retrieved from <a href="http://www.portal.opendata.dk/">opendata.dk</a>.
-                    You can head there and find even more data about Copenhagen and Denmark.
-                    We're going to learn about the differences that are within the city of Copenhagen through exploratory analysis
-                    and of course a lot of cool graphs to make it easy to swallow.
+                    The data used in this webpage is retrieved from <a href="http://www.portal.opendata.dk/">opendata.dk</a>. You can head there and find even more data about Copenhagen and Denmark. We're going to learn about the differences that are
+                    within the city of Copenhagen through exploratory analysis and of course a lot of cool graphs to make it easy to swallow.
                 </p>
                 <p>
-                    The main dataset we're using consists of 4 features with categorical values.
-                    You can check out the different values in the following table.
+                    The main dataset we're using consists of 4 features with categorical values. You can check out the different values in the following table.
                     <table class="table table-condensed table-responsive">
                         <tr class="active">
                             <td>District</td>
@@ -118,18 +114,12 @@
                     </table>
                 </p>
                 <p>
-                    That's a mouthful.
-                    But don't fret here is a visualization to ease it up a bit.
-                    It is a plot of the different districts, with the colors mapping to the number of people living in a district,
-                    and if you <b>hover over the visualization</b> you'll see the number of people in the district.
+                    That's a mouthful. But don't fret here is a visualization to ease it up a bit. It is a plot of the different districts, with the colors mapping to the number of people living in a district, and if you <b>hover over the visualization</b>                    you'll see the number of people in the district.
 
                     <div id="map1"></div>
 
-                    That is nice to play around with but it doesn't convey information as precisely as a column- or bar chart can.
-                    For that reason. Here is a column chart of the same data.
-                    It is clear to spot which district has the fewest people living.
-                    With the combined knowledge from the map which shows the relative area between the districts
-                    and the
+                    That is nice to play around with but it doesn't convey information as precisely as a column- or bar chart can. For that reason. Here is a column chart of the same data. It is clear to spot which district has the fewest people living. With the combined
+                    knowledge from the map which shows the relative area between the districts and the
                 </p>
             </div>
         </div>
@@ -158,131 +148,169 @@
             </div>
 
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs">
-            <div id="menu"></div>
-            <div id="histogram" class="last"></div>
-            <div id="map" class="last"></div>
-        </div>
-    </div>
-
-    <h2>Try It!</h2>
-    <p>
-        Based on data about inhabitants and residences of the different districts of copenhagen,
-         we have made an algorithm that tries to asses which district a person has residence. try it for yourself!
-    </p>
-    <div id="prediction" class="row">
         <div class="row">
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Home ownership<br>
-                  <input type="radio" name="colors" id="own1">Public housing<br>
-                  <input type="radio" name="colors" id="own2">Owner-occupied housing<br>
-                  <input type="radio" name="colors" id="own3">private rental<br>
-                  <input type="radio" name="colors" id="own4">private housing cooperative<br>
-                  <input type="radio" name="colors" id="own5">State and municipal
-                </form>
-            </div>
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Age<br>
-                  <input type="radio" name="colors" id="age1">15-19<br>
-                  <input type="radio" name="colors" id="age2">20-29<br>
-                  <input type="radio" name="colors" id="age3">30-64<br>
-                  <input type="radio" name="colors" id="age4">65 or more
-                </form>
-                <div class="row"> Income
-                    <select id="incomeSel" class="radioLeft">
-                      <option value="1" selected="selected">50.000 kr. and below</option>
-                      <option value="2">50.000-99.999 kr.</option>
-                      <option value="3">100.000-149.999 kr.</option>
-                      <option value="5">200.000-299.999 kr.</option>
-                      <option value="4">150.000-199.999 kr.</option>
-                      <option value="6">300.000-399.999 kr.</option>
-                      <option value="7">400.000-499.999 kr.</option>
-                      <option value="8">500.000-599.999 kr.</option>
-                      <option value="9">600.000-699.999 kr.</option>
-                      <option value="10">700.000 kr. and above</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Living space<br>
-                  <input type="radio" name="colors" id="m1">40 m2 and below<br>
-                  <input type="radio" name="colors" id="m2">40-59 m2<br>
-                  <input type="radio" name="colors" id="m3">60-79 m2<br>
-                  <input type="radio" name="colors" id="m4">80-99 m2<br>
-                  <input type="radio" name="colors" id="m5">100-119 m2<br>
-                  <input type="radio" name="colors" id="m6">120 m2 and above
-                </form>
+            <div class="col-xs">
+                <div id="menu"></div>
+                <div id="histogram" class="last"></div>
+                <div id="map" class="last"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Heritage<br>
-                  <input type="radio" name="colors" id="her1">Danish<br>
-                  <input type="radio" name="colors" id="her2">Immigrant
-                </form>
-                <div class= "row">
+
+        <h2>Try It!</h2>
+        <p>
+            Based on data about inhabitants and residences of the different districts of copenhagen, we have made an algorithm that tries to asses which district a person has residence. try it for yourself!
+        </p>
+        <div id="prediction" class="row">
+            <div class="row">
+                <div class="col-sm-4">
                     <form class="radioLeft">
-                        Civil status<br>
-                      <input type="radio" name="colors" id="cs1">Married<br>
-                      <input type="radio" name="colors" id="cs2">Couple living together<br>
-                      <input type="radio" name="colors" id="cs3">Single female<br>
-                      <input type="radio" name="colors" id="cs4">Singe male
+                        Home ownership
+                        <br>
+                        <input type="radio" name="colors" id="own1">Public housing
+                        <br>
+                        <input type="radio" name="colors" id="own2">Owner-occupied housing
+                        <br>
+                        <input type="radio" name="colors" id="own3">private rental
+                        <br>
+                        <input type="radio" name="colors" id="own4">private housing cooperative
+                        <br>
+                        <input type="radio" name="colors" id="own5">State and municipal
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <form class="radioLeft">
+                        Age
+                        <br>
+                        <input type="radio" name="colors" id="age1">15-19
+                        <br>
+                        <input type="radio" name="colors" id="age2">20-29
+                        <br>
+                        <input type="radio" name="colors" id="age3">30-64
+                        <br>
+                        <input type="radio" name="colors" id="age4">65 or more
+                    </form>
+                    <div class="row"> Income
+                        <select id="incomeSel" class="radioLeft">
+                            <option value="1" selected="selected">50.000 kr. and below</option>
+                            <option value="2">50.000-99.999 kr.</option>
+                            <option value="3">100.000-149.999 kr.</option>
+                            <option value="5">200.000-299.999 kr.</option>
+                            <option value="4">150.000-199.999 kr.</option>
+                            <option value="6">300.000-399.999 kr.</option>
+                            <option value="7">400.000-499.999 kr.</option>
+                            <option value="8">500.000-599.999 kr.</option>
+                            <option value="9">600.000-699.999 kr.</option>
+                            <option value="10">700.000 kr. and above</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <form class="radioLeft">
+                        Living space
+                        <br>
+                        <input type="radio" name="colors" id="m1">40 m2 and below
+                        <br>
+                        <input type="radio" name="colors" id="m2">40-59 m2
+                        <br>
+                        <input type="radio" name="colors" id="m3">60-79 m2
+                        <br>
+                        <input type="radio" name="colors" id="m4">80-99 m2
+                        <br>
+                        <input type="radio" name="colors" id="m5">100-119 m2
+                        <br>
+                        <input type="radio" name="colors" id="m6">120 m2 and above
                     </form>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Age... again<br>
-                  <input type="radio" name="colors" id="a1">16-17<br>
-                  <input type="radio" name="colors" id="a2">18-19<br>
-                  <input type="radio" name="colors" id="a3">20-24<br>
-                  <input type="radio" name="colors" id="a4">25-29<br>
-                  <input type="radio" name="colors" id="a5">30-39<br>
-                  <input type="radio" name="colors" id="a6">40-59<br>
-                  <input type="radio" name="colors" id="a7">60 or above
-                </form>
-            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <form class="radioLeft">
+                        Heritage
+                        <br>
+                        <input type="radio" name="colors" id="her1">Danish
+                        <br>
+                        <input type="radio" name="colors" id="her2">Immigrant
+                    </form>
+                    <div class="row">
+                        <form class="radioLeft">
+                            Civil status
+                            <br>
+                            <input type="radio" name="colors" id="cs1">Married
+                            <br>
+                            <input type="radio" name="colors" id="cs2">Couple living together
+                            <br>
+                            <input type="radio" name="colors" id="cs3">Single female
+                            <br>
+                            <input type="radio" name="colors" id="cs4">Singe male
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <form class="radioLeft">
+                        Age... again
+                        <br>
+                        <input type="radio" name="colors" id="a1">16-17
+                        <br>
+                        <input type="radio" name="colors" id="a2">18-19
+                        <br>
+                        <input type="radio" name="colors" id="a3">20-24
+                        <br>
+                        <input type="radio" name="colors" id="a4">25-29
+                        <br>
+                        <input type="radio" name="colors" id="a5">30-39
+                        <br>
+                        <input type="radio" name="colors" id="a6">40-59
+                        <br>
+                        <input type="radio" name="colors" id="a7">60 or above
+                    </form>
+                </div>
 
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Education<br>
-                  <input type="radio" name="colors" id="ed1">Primary school<br>
-                  <input type="radio" name="colors" id="ed2">Vocational<br>
-                  <input type="radio" name="colors" id="ed3">Commercial gymnasium/Secondary<br>
-                  <input type="radio" name="colors" id="ed4">general gymnasium/secondary<br>
-                  <input type="radio" name="colors" id="ed5">Bachelor<br>
-                  <input type="radio" name="colors" id="ed6">Medium to long education<br>
-                  <input type="radio" name="colors" id="ed7">Long to extended education
-                </form>
+                <div class="col-sm-4">
+                    <form class="radioLeft">
+                        Education
+                        <br>
+                        <input type="radio" name="colors" id="ed1">Primary school
+                        <br>
+                        <input type="radio" name="colors" id="ed2">Vocational
+                        <br>
+                        <input type="radio" name="colors" id="ed3">Commercial gymnasium/Secondary
+                        <br>
+                        <input type="radio" name="colors" id="ed4">general gymnasium/secondary
+                        <br>
+                        <input type="radio" name="colors" id="ed5">Bachelor
+                        <br>
+                        <input type="radio" name="colors" id="ed6">Medium to long education
+                        <br>
+                        <input type="radio" name="colors" id="ed7">Long to extended education
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <form class="radioLeft">
-                    Children<br>
-                  <input type="radio" name="colors" id="c1">none<br>
-                  <input type="radio" name="colors" id="c2">1 child<br>
-                  <input type="radio" name="colors" id="c3">2 children<br>
-                  <input type="radio" name="colors" id="c4">3 children<br>
-                  <input type="radio" name="colors" id="c5">more than 3 children
-                </form>
-            </div>
-            <div class="col-sm-8">
-                <button class="ResultBtn" onclick="predict()">Predict!</button>
-                <div class="row">
-                    <div id = "result" class="resultDisp">
+            <div class="row">
+                <div class="col-sm-4">
+                    <form class="radioLeft">
+                        Children
+                        <br>
+                        <input type="radio" name="colors" id="c1">none
+                        <br>
+                        <input type="radio" name="colors" id="c2">1 child
+                        <br>
+                        <input type="radio" name="colors" id="c3">2 children
+                        <br>
+                        <input type="radio" name="colors" id="c4">3 children
+                        <br>
+                        <input type="radio" name="colors" id="c5">more than 3 children
+                    </form>
+                </div>
+                <div class="col-sm-8">
+                    <button class="ResultBtn" onclick="predict()">Predict!</button>
+                    <div class="row">
+                        <div id="result" class="resultDisp">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
+            <div>
+            </div>
         </div>
     </div>
 
