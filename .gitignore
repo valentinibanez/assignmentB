@@ -1,2 +1,6 @@
 *
-!dist/*
+!index.html
+!style.css
+!assets/*
+!data/*
+!js/*
