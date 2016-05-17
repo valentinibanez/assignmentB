@@ -22,32 +22,32 @@
             <div class="row center-xs">
                 <div class="col-xs-12 col-sm-4 stat">
                     <div class="box stat-head">
-                        <p>
+                        <h2>
                             Population
-                        </p>
-                        <span>
+                        </h2>
+                        <h3>
                                 570.171
-                            </span>
+                            </h3>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 stat">
                     <div class="box stat-head">
-                        <p>
+                        <h2>
                             Median income
-                        </p>
-                        <span>
+                        </h2>
+                        <h3>
                                 204.008 DKK
-                            </span>
+                            </h3>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 stat">
                     <div class="box stat-head">
-                        <p>
+                        <h2>
                             Median age
-                        </p>
-                        <span>
+                        </h2>
+                        <h3>
                                 35,5 years
-                            </span>
+                            </h3>
                     </div>
                 </div>
             </div>
@@ -114,55 +114,65 @@
                     </table>
                 </p>
                 <p>
-                    That's a mouthful. But don't fret here is a visualization to ease it up a bit. It is a plot of the different districts, with the colors mapping to the number of people living in a district, and if you <b>hover over the visualization</b>                    you'll see the number of people in the district.
+                    That's a mouthful.
+                    But don't fret here is a visualization to ease it up a bit.
+                    It is a plot of the different districts,
+                    with the colors mapping to the number of people living in a district,
+                    and if you <b>hover over the visualization</b>
+                    you'll see the number of people in the district.
 
                     <div id="map1"></div>
 
-                    That is nice to play around with but it doesn't convey information as precisely as a column- or bar chart can. For that reason. Here is a column chart of the same data. It is clear to spot which district has the fewest people living. With the combined
-                    knowledge from the map which shows the relative area between the districts and the
+                    That is nice to play around with but it doesn't convey information as precisely as a column- or bar chart can
+                    and for that reason: Here is a column chart of the same data.
+
+                    <div id="columns"></div>
+
+                    It is clear to spot in which district there lives the fewest people.
+                    With the combined knowledge from the map which shows the relative area between the districts and the
+                    column chart we can learn that even though Nørrebro is the smallest district it has the highest person count.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-xs">
-                <h2>Work and Income</h2>
-                <p>
-                    To start with let's explore the median income of people in the different city districts.
-                </p>
-
-                <p>
-                    We can compare the unemployment rate of people with the ratio of people having an education sized by the number of persons in an age category
-                </p>
-                <div id="scatterplot" class="">
-                    <p>TODO: add scatterplot of distribution (x-axis is unemployment rate and y-axis is percentage of the population in a given age group that has an education)</p>
-                </div>
-
-                <h2>Ethnicity and City Districts</h2>
-
+                <h2>Differences in the city's districts</h2>
                 <div>
                     <p>
-                        TODO: this bar chart
+                        This is an interactive column chart combined with a map.
+                        You can click the various categories and hover over the districts to see
+                        the percentage of people represented in each category.
                     </p>
-                    <div id="columns"></div>
+                    <p>
+                        Use it to explore Copenhagen for yourself.
+                        There are many interesting tendencies to notice such as
+                        the many large residences in the center of Copenhagen ("Indre by")
+                        which is known it's high price per square meter.
+                        Also the many private housing cooperatives on Vesterbro and the few in Brønshøj-Husum
+                    </p>
+                    <div class="row">
+                        <div class="col-xs">
+                            <div id="menu"></div>
+                            <div id="histogram" class="last"></div>
+                            <div id="map" class="last"></div>
+                        </div>
+                    </div>
+                    <p>
+
+                    </p>
                 </div>
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-xs">
-                <div id="menu"></div>
-                <div id="histogram" class="last"></div>
-                <div id="map" class="last"></div>
-            </div>
-        </div>
 
-        <h2>Try It!</h2>
+
+        <h2>Try our decision tree!</h2>
         <p>
             Based on data about inhabitants and residences of the different districts of copenhagen, we have made an algorithm that tries to asses which district a person has residence. try it for yourself!
         </p>
         <div id="prediction" class="row">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <form class="radioLeft">
                         Home ownership
                         <br>
@@ -177,7 +187,7 @@
                         <input type="radio" name="colors" id="own5">State and municipal
                     </form>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <form class="radioLeft">
                         Age
                         <br>
@@ -188,6 +198,15 @@
                         <input type="radio" name="colors" id="age3">30-64
                         <br>
                         <input type="radio" name="colors" id="age4">65 or more
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <form class="radioLeft">
+                        Heritage
+                        <br>
+                        <input type="radio" name="colors" id="her1">Danish
+                        <br>
+                        <input type="radio" name="colors" id="her2">Immigrant
                     </form>
                     <div class="row"> Income
                         <select id="incomeSel" class="radioLeft">
@@ -204,7 +223,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <form class="radioLeft">
                         Living space
                         <br>
@@ -223,14 +242,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <form class="radioLeft">
-                        Heritage
-                        <br>
-                        <input type="radio" name="colors" id="her1">Danish
-                        <br>
-                        <input type="radio" name="colors" id="her2">Immigrant
-                    </form>
+                <div class="col-sm-6">
                     <div class="row">
                         <form class="radioLeft">
                             Civil status
@@ -245,7 +257,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <form class="radioLeft">
                         Age... again
                         <br>
@@ -264,8 +276,9 @@
                         <input type="radio" name="colors" id="a7">60 or above
                     </form>
                 </div>
-
-                <div class="col-sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <form class="radioLeft">
                         Education
                         <br>
@@ -284,9 +297,7 @@
                         <input type="radio" name="colors" id="ed7">Long to extended education
                     </form>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <form class="radioLeft">
                         Children
                         <br>
@@ -301,7 +312,7 @@
                         <input type="radio" name="colors" id="c5">more than 3 children
                     </form>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-12">
                     <button class="ResultBtn" onclick="predict()">Predict!</button>
                     <div class="row">
                         <div id="result" class="resultDisp">

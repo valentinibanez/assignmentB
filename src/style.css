@@ -91,23 +91,23 @@ body {
     text-align:left;
     font-size: 15px;
 }
-#prediction .col-sm-4{
+#prediction .col-sm-6{
     border-radius: 15px;
     border: 2px solid #000000;
     padding: 20px;
-    width: 310px;
+    width: 410px;
     height: 240px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
-#prediction .col-sm-8{
+#prediction .col-sm-12{
     border-radius: 15px;
     border: 6px solid #000000;
     padding: 20px;
-    width: 630px;
+    width: 850px;
     height: 240px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .resultDisp{
     font-size: 40px;

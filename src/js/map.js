@@ -14,7 +14,6 @@ function plotMap(selection) {
 
     // Stuff for colors and legends
     var ext_color_domain = [64988, 95600, 131694]
-    var legend_labels = ["<64k", "95k+", "131k+"]
     var color = d3.scale.linear()
         .domain([64988, 95600, 131694])
         .range(["#ffead3", "#ffa84c", "#ff8300"])
@@ -103,29 +102,6 @@ function plotMap(selection) {
             .attr("text-anchor", "middle")
             .attr('font-size', '8pt');
 
-
-
-        //Adding legend for our Choropleth
-
-        var legend = svg.selectAll("g.legend")
-            .data(ext_color_domain)
-            .enter().append("g")
-            .attr("class", "legend");
-
-        var ls_w = 20, ls_h = 20;
-
-        legend.append("rect")
-            .attr("x", 20)
-            .attr("y", function (d, i) { return height - (i * ls_h) - 2 * ls_h; })
-            .attr("width", ls_w)
-            .attr("height", ls_h)
-            .style("fill", function (d, i) { return color(d); })
-            .style("opacity", 0.8);
-
-        legend.append("text")
-            .attr("x", 50)
-            .attr("y", function (d, i) { return height - (i * ls_h) - ls_h - 4; })
-            .text(function (d, i) { return legend_labels[i]; });
     }
 
     function zoomed() {

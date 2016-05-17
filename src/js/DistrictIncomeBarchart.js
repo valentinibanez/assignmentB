@@ -69,7 +69,6 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
     barchartDataset = data.map(function (d) { return [d["group"], +d["Amager Øst"], +d["Amager Vest"], +d["Bispebjerg"], +d["Brønshøj-Husum"], +d["Indre By"], +d["Nørrebro"], +d["Østerbro"], +d["Valby"], +d["Vanløse"], +d["Vesterbro"], +d["Avg in CPH"]]; });
     categories = Object.keys(data[0]);
     categories.shift();
-    console.log(barchartDataset)
     for (var i = 0; i < barchartDataset.length; i++) {
         for (var j = 1; j < barchartDataset[0].length; j++) {
             allCounts = allCounts.concat(barchartDataset[i][j]);
@@ -77,7 +76,7 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
     }
     barchartColorpicker = d3.scale.linear()
         .domain([0, 0.1, d3.max(allCounts)])
-        .range(["#ffead3", "#ffa84c", "#ff8300"])
+        .range(["#f9d3aa", "#ffa84c", "#ff8300"])
         .interpolate(d3.interpolateHcl);
     barchartYScale = d3.scale.linear()
         .domain([0, d3.max(allCounts)])
@@ -251,7 +250,7 @@ var LoadAndTransition = function (fileName) {
 
         barchartColorpicker = d3.scale.linear()
             .domain([0, 0.1, d3.max(allCounts)])
-            .range(["#ffead3", "#ffa84c", "#ff8300"])
+            .range(["#f9d3aa", "#ffa84c", "#ff8300"])
             .interpolate(d3.interpolateHcl);
         barchartYScale = d3.scale.linear()
             .domain([0, d3.max(allCounts)])
