@@ -95,10 +95,16 @@
             <div id="map" class="last"></div>
         </div>
     </div>
+
+    <h2>Try It!</h2>
+    <p>
+        Based on data about inhabitants and residences of the different districts of copenhagen,
+         we have made an algorithm that tries to asses which district a person has residence. try it for yourself!
+    </p>
     <div id="prediction" class="row">
         <div class="row">
             <div class="col-sm-4">
-                <form>
+                <form class="radioLeft">
                     Home ownership<br>
                   <input type="radio" name="colors" id="own1">Public housing<br>
                   <input type="radio" name="colors" id="own2">Owner-occupied housing<br>
@@ -108,7 +114,7 @@
                 </form>
             </div>
             <div class="col-sm-4">
-                <form>
+                <form class="radioLeft">
                     Age<br>
                   <input type="radio" name="colors" id="age1">15-19<br>
                   <input type="radio" name="colors" id="age2">20-29<br>
@@ -116,7 +122,7 @@
                   <input type="radio" name="colors" id="age4">65 or more
                 </form>
                 <div class="row"> Income
-                    <select id="incomeSel">
+                    <select id="incomeSel" class="radioLeft">
                       <option value="1" selected="selected">50.000 kr. and below</option>
                       <option value="2">50.000-99.999 kr.</option>
                       <option value="3">100.000-149.999 kr.</option>
@@ -131,7 +137,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <form>
+                <form class="radioLeft">
                     Living space<br>
                   <input type="radio" name="colors" id="m1">40 m2 and below<br>
                   <input type="radio" name="colors" id="m2">40-59 m2<br>
@@ -144,13 +150,13 @@
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <form>
+                <form class="radioLeft">
                     Heritage<br>
                   <input type="radio" name="colors" id="her1">Danish<br>
                   <input type="radio" name="colors" id="her2">Immigrant
                 </form>
                 <div class= "row">
-                    <form>
+                    <form class="radioLeft">
                         Civil status<br>
                       <input type="radio" name="colors" id="cs1">Married<br>
                       <input type="radio" name="colors" id="cs2">Couple living together<br>
@@ -160,7 +166,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <form>
+                <form class="radioLeft">
                     Age... again<br>
                   <input type="radio" name="colors" id="a1">16-17<br>
                   <input type="radio" name="colors" id="a2">18-19<br>
@@ -173,7 +179,7 @@
             </div>
 
             <div class="col-sm-4">
-                <form>
+                <form class="radioLeft">
                     Education<br>
                   <input type="radio" name="colors" id="ed1">Primary school<br>
                   <input type="radio" name="colors" id="ed2">Vocational<br>
@@ -186,8 +192,8 @@
             </div>
         </div>
         <div class="row">
-            <div>
-                <form>
+            <div class="col-sm-4">
+                <form class="radioLeft">
                     Children<br>
                   <input type="radio" name="colors" id="c1">none<br>
                   <input type="radio" name="colors" id="c2">1 child<br>
@@ -196,9 +202,15 @@
                   <input type="radio" name="colors" id="c5">more than 3 children
                 </form>
             </div>
+            <div class="col-sm-8">
+                <button class="ResultBtn" onclick="predict()">Predict!</button>
+                <div class="row">
+                    <div id = "result" class="resultDisp">
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
-            <button onclick="predict()">Predict!</button>
         </div>
     </div>
 
