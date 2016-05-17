@@ -92,104 +92,110 @@
             <div id="menu"></div>
             <div id="histogram" class="last"></div>
             <div id="map" class="last"></div>
-            <div id="prediction">
-                <div>
-                    <form>
-                        Home ownership<br>
-                      <input type="radio" name="colors" id="own1">Public housing<br>
-                      <input type="radio" name="colors" id="own2">Owner-occupied housing<br>
-                      <input type="radio" name="colors" id="own3">private rental<br>
-                      <input type="radio" name="colors" id="own4">private housing cooperative<br>
-                      <input type="radio" name="colors" id="own5">State and municipal
-                    </form>
-                </div>
-                <div>
-                    <form>
-                        Living space<br>
-                      <input type="radio" name="colors" id="m1">40 m2 and below<br>
-                      <input type="radio" name="colors" id="m2">40-59 m2<br>
-                      <input type="radio" name="colors" id="m3">60-79 m2<br>
-                      <input type="radio" name="colors" id="m4">80-99 m2<br>
-                      <input type="radio" name="colors" id="m5">100-119 m2<br>
-                      <input type="radio" name="colors" id="m6">120 m2 and above
-                    </form>
-                </div>
-                <div>
-                    <select id="incomeSel">Income
-                      <option value="1" selected="selected">50.000 kr. and below</option>
-                      <option value="2">50.000-99.999 kr.</option>
-                      <option value="3">100.000-149.999 kr.</option>
-                      <option value="4">150.000-199.999 kr.</option>
-                      <option value="5">200.000-299.999 kr.</option>
-                      <option value="6">300.000-399.999 kr.</option>
-                      <option value="7">400.000-499.999 kr.</option>
-                      <option value="8">500.000-599.999 kr.</option>
-                      <option value="9">600.000-699.999 kr.</option>
-                      <option value="10">700.000 kr. and above</option>
-                    </select>
-                    <form>
-                        Age<br>
-                      <input type="radio" name="colors" id="age1">15-19<br>
-                      <input type="radio" name="colors" id="age2">20-29<br>
-                      <input type="radio" name="colors" id="age3">30-64<br>
-                      <input type="radio" name="colors" id="age4">65 or more
-                    </form>
-                </div>
-                <div>
-                    <form>
-                        Heritage<br>
-                      <input type="radio" name="colors" id="her1">Danish<br>
-                      <input type="radio" name="colors" id="her2">Immigrant
-                    </form>
-                </div>
-                <div>
-                    <form>
-                        Age... again<br>
-                      <input type="radio" name="colors" id="a1">16-17<br>
-                      <input type="radio" name="colors" id="a2">18-19<br>
-                      <input type="radio" name="colors" id="a3">20-24<br>
-                      <input type="radio" name="colors" id="a4">25-29<br>
-                      <input type="radio" name="colors" id="a5">30-39<br>
-                      <input type="radio" name="colors" id="a6">40-59<br>
-                      <input type="radio" name="colors" id="a7">60 or above
-                    </form>
-                </div>
-
-                <div>
-                    <form>
-                        Education<br>
-                      <input type="radio" name="colors" id="ed1">Primary school<br>
-                      <input type="radio" name="colors" id="ed2">Vocational<br>
-                      <input type="radio" name="colors" id="ed3">Commercial gymnasium/Secondary<br>
-                      <input type="radio" name="colors" id="ed4">general gymnasium/secondary<br>
-                      <input type="radio" name="colors" id="ed5">Bachelor<br>
-                      <input type="radio" name="colors" id="ed6">Medium to long education<br>
-                      <input type="radio" name="colors" id="ed7">Long to extended education
-                    </form>
-                </div>
-                <div>
-                    <form>
-                        civil status<br>
-                      <input type="radio" name="colors" id="cs1">Married<br>
-                      <input type="radio" name="colors" id="cs2">Couple living together<br>
-                      <input type="radio" name="colors" id="cs3">Single female<br>
-                      <input type="radio" name="colors" id="cs4">Singe male
-                    </form>
-                </div>
-                <div>
-                    <form>
-                        Children<br>
-                      <input type="radio" name="colors" id="c1">none<br>
-                      <input type="radio" name="colors" id="c2">1 child<br>
-                      <input type="radio" name="colors" id="c3">2 children<br>
-                      <input type="radio" name="colors" id="c4">3 children<br>
-                      <input type="radio" name="colors" id="c5">more than 3 children
-                    </form>
-                </div>
-                <div>
-                    <button onclick="predict()">Predict!</button>
-                </div>
+        </div>
+    </div>
+    <div id="prediction" class="row">
+        <div class="row">
+            <div class="col-lg-4">
+                <form>
+                    Home ownership<br>
+                  <input type="radio" name="colors" id="own1">Public housing<br>
+                  <input type="radio" name="colors" id="own2">Owner-occupied housing<br>
+                  <input type="radio" name="colors" id="own3">private rental<br>
+                  <input type="radio" name="colors" id="own4">private housing cooperative<br>
+                  <input type="radio" name="colors" id="own5">State and municipal
+                </form>
             </div>
+            <div class="col-lg-4">
+                <form>
+                    Living space<br>
+                  <input type="radio" name="colors" id="m1">40 m2 and below<br>
+                  <input type="radio" name="colors" id="m2">40-59 m2<br>
+                  <input type="radio" name="colors" id="m3">60-79 m2<br>
+                  <input type="radio" name="colors" id="m4">80-99 m2<br>
+                  <input type="radio" name="colors" id="m5">100-119 m2<br>
+                  <input type="radio" name="colors" id="m6">120 m2 and above
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <form>
+                    Age<br>
+                  <input type="radio" name="colors" id="age1">15-19<br>
+                  <input type="radio" name="colors" id="age2">20-29<br>
+                  <input type="radio" name="colors" id="age3">30-64<br>
+                  <input type="radio" name="colors" id="age4">65 or more
+                </form>
+                <select id="incomeSel">Income
+                  <option value="1" selected="selected">50.000 kr. and below</option>
+                  <option value="2">50.000-99.999 kr.</option>
+                  <option value="3">100.000-149.999 kr.</option>
+                  <option value="5">200.000-299.999 kr.</option>
+                  <option value="4">150.000-199.999 kr.</option>
+                  <option value="6">300.000-399.999 kr.</option>
+                  <option value="7">400.000-499.999 kr.</option>
+                  <option value="8">500.000-599.999 kr.</option>
+                  <option value="9">600.000-699.999 kr.</option>
+                  <option value="10">700.000 kr. and above</option>
+                </select>
+            </div>
+            <div>
+                <form>
+                    Heritage<br>
+                  <input type="radio" name="colors" id="her1">Danish<br>
+                  <input type="radio" name="colors" id="her2">Immigrant
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <form>
+                    Age... again<br>
+                  <input type="radio" name="colors" id="a1">16-17<br>
+                  <input type="radio" name="colors" id="a2">18-19<br>
+                  <input type="radio" name="colors" id="a3">20-24<br>
+                  <input type="radio" name="colors" id="a4">25-29<br>
+                  <input type="radio" name="colors" id="a5">30-39<br>
+                  <input type="radio" name="colors" id="a6">40-59<br>
+                  <input type="radio" name="colors" id="a7">60 or above
+                </form>
+            </div>
+
+            <div>
+                <form>
+                    Education<br>
+                  <input type="radio" name="colors" id="ed1">Primary school<br>
+                  <input type="radio" name="colors" id="ed2">Vocational<br>
+                  <input type="radio" name="colors" id="ed3">Commercial gymnasium/Secondary<br>
+                  <input type="radio" name="colors" id="ed4">general gymnasium/secondary<br>
+                  <input type="radio" name="colors" id="ed5">Bachelor<br>
+                  <input type="radio" name="colors" id="ed6">Medium to long education<br>
+                  <input type="radio" name="colors" id="ed7">Long to extended education
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <form>
+                    civil status<br>
+                  <input type="radio" name="colors" id="cs1">Married<br>
+                  <input type="radio" name="colors" id="cs2">Couple living together<br>
+                  <input type="radio" name="colors" id="cs3">Single female<br>
+                  <input type="radio" name="colors" id="cs4">Singe male
+                </form>
+            </div>
+            <div>
+                <form>
+                    Children<br>
+                  <input type="radio" name="colors" id="c1">none<br>
+                  <input type="radio" name="colors" id="c2">1 child<br>
+                  <input type="radio" name="colors" id="c3">2 children<br>
+                  <input type="radio" name="colors" id="c4">3 children<br>
+                  <input type="radio" name="colors" id="c5">more than 3 children
+                </form>
+            </div>
+        </div>
+        <div>
+            <button onclick="predict()">Predict!</button>
         </div>
     </div>
 
