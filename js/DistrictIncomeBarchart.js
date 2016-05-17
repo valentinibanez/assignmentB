@@ -23,7 +23,7 @@ var title;
 var context = "Income";
 var contextTitle;
 var container;
-
+var barchartColorpicker;
 var formatter = d3.format(",.1%");
 d3.select("#menu")
     .append("div")
@@ -74,6 +74,10 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
             allCounts = allCounts.concat(barchartDataset[i][j]);
         }
     }
+    barchartColorpicker = d3.scale.linear()
+        .domain([0, 0.1, d3.max(allCounts)])
+        .range(["#f9d3aa", "#ffa84c", "#ff8300"])
+        .interpolate(d3.interpolateHcl);
     barchartYScale = d3.scale.linear()
         .domain([0, d3.max(allCounts)])
         .range([0, barCharth - barChartPadding.bottom - barChartPadding.top]);
@@ -100,7 +104,7 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
             return barchartYScale(d[dataSelector]);
         })
         .attr("fill", function (d) {
-            return "rgb(90,140,180)";
+            return barchartColorpicker(d[dataSelector]);
         });
 
     // add category labels
@@ -194,7 +198,7 @@ var transition = function () {
             return barchartYScale(d[dataSelector]);
         })
         .attr("fill", function (d) {
-            return "rgb(90,140,180)";
+            return barchartColorpicker(d[dataSelector]);
         });
 
     // redraw value labels
@@ -243,6 +247,11 @@ var LoadAndTransition = function (fileName) {
                 allCounts = allCounts.concat(barchartDataset[i][j]);
             }
         }
+
+        barchartColorpicker = d3.scale.linear()
+            .domain([0, 0.1, d3.max(allCounts)])
+            .range(["#f9d3aa", "#ffa84c", "#ff8300"])
+            .interpolate(d3.interpolateHcl);
         barchartYScale = d3.scale.linear()
             .domain([0, d3.max(allCounts)])
             .range([0, barCharth - barChartPadding.bottom - barChartPadding.top]);
@@ -264,7 +273,7 @@ var LoadAndTransition = function (fileName) {
                 return barchartYScale(d[dataSelector]);
             })
             .attr("fill", function (d) {
-                return "rgb(90,140,180)";
+                return barchartColorpicker(d[dataSelector]);
             });
         // remove old  labels
         valueLabels.remove();

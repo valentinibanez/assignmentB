@@ -25,7 +25,7 @@ var title;
 var context = "Income";
 var contextTitle;
 var container;
-
+var barchartColorpicker;
 var formatter = d3.format(",.1%");
 d3.select("#menu").append("div").attr("class", "DataBtn").attr("id", "m2").on("click", function () {
     context = "m2";
@@ -56,6 +56,7 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
             allCounts = allCounts.concat(barchartDataset[i][j]);
         }
     }
+    barchartColorpicker = d3.scale.linear().domain([0, 0.1, d3.max(allCounts)]).range(["#f9d3aa", "#ffa84c", "#ff8300"]).interpolate(d3.interpolateHcl);
     barchartYScale = d3.scale.linear().domain([0, d3.max(allCounts)]).range([0, barCharth - barChartPadding.bottom - barChartPadding.top]);
 
     //Create SVG element
@@ -68,7 +69,7 @@ d3.csv("./data/personer_indkomst_bydel_procenter_T.csv", function (data) {
     }).attr("width", barChartw / barchartDataset.length - barPadding).attr("height", function (d) {
         return barchartYScale(d[dataSelector]);
     }).attr("fill", function (d) {
-        return "rgb(90,140,180)";
+        return barchartColorpicker(d[dataSelector]);
     });
 
     // add category labels
@@ -119,7 +120,7 @@ var transition = function transition() {
     }).attr("width", barChartw / barchartDataset.length - barPadding).attr("height", function (d) {
         return barchartYScale(d[dataSelector]);
     }).attr("fill", function (d) {
-        return "rgb(90,140,180)";
+        return barchartColorpicker(d[dataSelector]);
     });
 
     // redraw value labels
@@ -159,6 +160,8 @@ var LoadAndTransition = function LoadAndTransition(fileName) {
                 allCounts = allCounts.concat(barchartDataset[i][j]);
             }
         }
+
+        barchartColorpicker = d3.scale.linear().domain([0, 0.1, d3.max(allCounts)]).range(["#f9d3aa", "#ffa84c", "#ff8300"]).interpolate(d3.interpolateHcl);
         barchartYScale = d3.scale.linear().domain([0, d3.max(allCounts)]).range([0, barCharth - barChartPadding.bottom - barChartPadding.top]);
 
         var bars = barchartSvg.selectAll("rect").data(barchartDataset);
@@ -170,7 +173,7 @@ var LoadAndTransition = function LoadAndTransition(fileName) {
         }).attr("width", barChartw / barchartDataset.length - barPadding).attr("height", function (d) {
             return barchartYScale(d[dataSelector]);
         }).attr("fill", function (d) {
-            return "rgb(90,140,180)";
+            return barchartColorpicker(d[dataSelector]);
         });
         // remove old  labels
         valueLabels.remove();
@@ -857,10 +860,21 @@ var indexOfMax = function indexOfMax(arr) {
 
     return maxIndex;
 };
+var sumUpArray = function sumUpArray(arr) {
+    var total = 0;
+    for (var i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return parseFloat(total);
+};
 var sumUpArrays = function sumUpArrays(array1, array2, array3, array4) {
     var sum = [];
+    var total1 = sumUpArray(array1[0]);
+    var total2 = sumUpArray(array2[0]);
+    var total3 = sumUpArray(array3[0]);
+    var total4 = sumUpArray(array4[0]);
     for (var i = 0; i < array1[0].length; i++) {
-        sum.push(array1[0][i] + array2[0][i] + array3[0][i] + array4[0][i]);
+        sum.push(array1[0][i] / total1 + array2[0][i] / total2 + array3[0][i] / total3 + array4[0][i] / total4);
     }
     return sum;
 };
@@ -943,10 +957,8 @@ function predict() {
 
     var result = forestVote(own1, own2, own3, own4, own5, m1, m2, m3, m4, m5, m6, incomeCat, age1, age2, age3, age4, her1, her2, a1, a2, a3, a4, a5, a6, a7, ed1, ed2, ed3, ed4, ed5, ed6, ed7, cs1, cs2, cs3, cs4, c1, c2, c3, c4, c5);
     console.log(result);
+    document.getElementById('result').innerHTML = result;
 }
-
-console.log(result);
-console.log(getLabel(result));
 "use strict";
 
 function plotMap2(selection) {
@@ -1067,7 +1079,6 @@ function plotMap(selection) {
 
     // Stuff for colors and legends
     var ext_color_domain = [64988, 95600, 131694];
-    var legend_labels = ["<64k", "95k+", "131k+"];
     var color = d3.scale.linear().domain([64988, 95600, 131694]).range(["#ffead3", "#ffa84c", "#ff8300"]).interpolate(d3.interpolateHcl);
 
     // stuff for zooming
@@ -1126,25 +1137,6 @@ function plotMap(selection) {
         }).attr("y", function (d) {
             return path.centroid(d)[1];
         }).attr("text-anchor", "middle").attr('font-size', '8pt');
-
-        //Adding legend for our Choropleth
-
-        var legend = svg.selectAll("g.legend").data(ext_color_domain).enter().append("g").attr("class", "legend");
-
-        var ls_w = 20,
-            ls_h = 20;
-
-        legend.append("rect").attr("x", 20).attr("y", function (d, i) {
-            return height - i * ls_h - 2 * ls_h;
-        }).attr("width", ls_w).attr("height", ls_h).style("fill", function (d, i) {
-            return color(d);
-        }).style("opacity", 0.8);
-
-        legend.append("text").attr("x", 50).attr("y", function (d, i) {
-            return height - i * ls_h - ls_h - 4;
-        }).text(function (d, i) {
-            return legend_labels[i];
-        });
     }
 
     function zoomed() {
