@@ -6,7 +6,7 @@ body {
 }
 .custom {}
 .bg {
-    background: url('/assets/splash.jpg') no-repeat center center;
+    background: url('assets/splash.jpg') no-repeat center center;
     background-size: cover;
     position: absolute;
     width: 100% !important;
