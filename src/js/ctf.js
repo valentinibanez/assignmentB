@@ -615,6 +615,7 @@ function predict() {
     var m3 = document.getElementById("m3").checked;
     var m4 = document.getElementById("m4").checked;
     var m5 = document.getElementById("m5").checked;
+    var m6 = document.getElementById("m6").checked;
 
     var e = document.getElementById("incomeSel");
     var incomeCat = e.options[e.selectedIndex].value;
@@ -654,10 +655,8 @@ function predict() {
     var c4 = document.getElementById("c4").checked;
     var c5 = document.getElementById("c5").checked;
 
-    var result = forestVote(own1, own2, own3, own4, own5, m1, m2, m3, m4, m5, incomeCat, age1, age2, age3, age4, her1, her2, a1, a2, a3, a4, a5, a6, a7, ed1, ed2, ed3, ed4, ed5, ed6, ed7, cs1, cs2, cs3, cs4, c1, c2, c3, c4, c5)
-    var result2 = forestVote(0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0)
+    var result = forestVote(own1, own2, own3, own4, own5, m1, m2, m3, m4, m5, m6, incomeCat, age1, age2, age3, age4, her1, her2, a1, a2, a3, a4, a5, a6, a7, ed1, ed2, ed3, ed4, ed5, ed6, ed7, cs1, cs2, cs3, cs4, c1, c2, c3, c4, c5)
     console.log(result);
-        console.log(result2);
 }
 
 console.log(result);
